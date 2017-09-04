@@ -1,5 +1,39 @@
-\documentclass{dissertation}
+\documentclass[print]{dissertation}
 
+\usepackage{xr} 
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{chemformula}
+
+%===========new commands==============
+\newcommand*\commentauthor[1]{\textbf{{\textit{#1}}}}
+\newcommand*\me[1]{\ensuremath{\bar{#1}\,}}
+\newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
+
+\newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
+\newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
+\newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
+\newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
+\newcommand{\mW}{\ensuremath{\,\textrm{mW}}}
+\newcommand{\W}{\ensuremath{\,\textrm{W}}}
+\newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
+\newcommand{\um}{\ensuremath{\,\mu\textrm{m}}}
+\newcommand{\pM}{\ensuremath{\,\textrm{pM}}}
+\newcommand{\pwr}{\ensuremath{\,\textrm{kW/cm}^2}}
+\newcommand{\CPS}{\ensuremath{\,\textrm{CPS}}}
+\newcommand{\kCPS}{\ensuremath{\,\textrm{kCPS}}}
+\newcommand{\atto}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
+\newcommand{\K}{\ensuremath{\,\textrm{K}}}
+\newcommand{\mm}{\ensuremath{\,\textrm{mm}}}
+\newcommand{\m}{\ensuremath{\,\textrm{m}}}
+\newcommand{\fs}{\ensuremath{\,\textrm{fs}}}
+\newcommand{\ps}{\ensuremath{\,\textrm{ps}}}
+\newcommand{\s}{\ensuremath{\,\textrm{s}}}
+\newcommand{\degree}{\ensuremath{\,^o\textrm{C}}}
+% \graphicspath{{./figures}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Start the main part of the THESIS here.%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 %% Use Roman numerals for the page numbers of the title pages and table of
@@ -21,19 +55,24 @@
 
 %% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
-
+%==========Chapters================
 \input{chapters/c1_intro}
 \input{chapters/c2_bilayer_efcs}
 \input{chapters/c3_binfree}
-\input{chapters/c4_azurin_sm}
+\input{chapters/c4_azurin_sm/azurin}
 \input{chapters/c5_transient_binding}
 \input{chapters/c6_scat_corr}
-%% Use letters for the chapter numbers of the appendices.
-%\appendix
 
+%========bibliography===========
+\newpage
+\references{chapters/c4_azurin_sm/azurin}
+%% Use letters for the chapter numbers of the appendices.
+%=========Apendix===============
+\appendix
+\include{chapters/c4_azurin_sm/si_azurin}
+
+%% Turn off thumb indices for unnumbered chapters.
+\thumbfalse
 %\input{appendix-a}
 
-%\bibliography{report}
-
 \end{document}
-

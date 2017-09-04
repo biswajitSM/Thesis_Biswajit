@@ -8,28 +8,20 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
 
-\LoadClass[11pt]{book}
+\LoadClass[10pt]{book}
 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 %% English is the default language, but Dutch is used for some sections.
 \RequirePackage[dutch,english]{babel}
-%\RequirePackage{inputenc}
 \RequirePackage{calc}
 \RequirePackage[nooneline,footnotesize]{caption}
-%\RequirePackage{chapterbib}
+\RequirePackage{chapterbib}
 \RequirePackage{etaremune}
 \RequirePackage{fancyhdr}
 \RequirePackage[flushmargin,hang]{footmisc}
 \RequirePackage{ifpdf}
 \RequirePackage{ifxetex}
-% for sub figures
-%\RequirePackage{graphicx}
-\RequirePackage{subfigure}
-\RequirePackage[toc,page]{appendix} 
-\RequirePackage{lscape} % add 05-May-2016
-
-
 \ifxetex
     \RequirePackage[xetex]{geometry}
     \RequirePackage[xetex]{graphicx}
@@ -53,11 +45,10 @@
 \RequirePackage{lettrine}
 \RequirePackage{metalogo}
 \RequirePackage[sectionbib,numbers,sort&compress]{natbib}
-%\RequirePackage[sorting=none,firstinits=true]{biblatex} % 18Mar2016
 \RequirePackage{tikz}
 \RequirePackage[noindentafter]{titlesec}
 \RequirePackage{titletoc}
-%\RequirePackage[nottoc]{tocbibind} % modify on 23Mar2016 to remove the dots in content of bibliography
+\RequirePackage[nottoc]{tocbibind}
 \RequirePackage{xcolor}
 
 %% If the document is not compiled with XeLaTeX, we need to use the native
@@ -71,17 +62,16 @@
     %% as a fallback, since Utopia lacks support for sans-serif and monospace.
     \RequirePackage[T1]{fontenc}
     \RequirePackage[utf8]{inputenc}
-    %\RequirePackage{helvet}
-	\RequirePackage{lmodern}
+    \RequirePackage{lmodern}
     \RequirePackage{fourier}
-    %% The style for titles is small caps (\scshape), \upshape, \itshape.
+    %% The style for titles is small caps.
     \def\titlefont{\rmfamily}
-    \def\titleshape{\upshape} % small caps (\scshape), \upshape, \itshape.
+    \def\titleshape{\scshape}
     \def\titlestyle{\titlefont\titleshape\bfseries}
     \if@print
         \def\headerstyle{\titlefont\titleshape\bfseries}
     \else
-        \def\headerstyle{\titlefont\titleshape\bfseries}
+        \def\headerstyle{\titlefont\titleshape}
     \fi
 \else
     %% The TU Delft house style fonts are Bookman Old Style (serif) for titles
@@ -151,9 +141,9 @@
 %% for the thumb indices.
 \definecolor{anthracite}{cmyk}{0,0,0,0.8}
 \if@print
-    \colorlet{title}{tudelft-black}
+    \colorlet{title}{anthracite}
 \else
-    \colorlet{title}{tudelft-black}
+    \colorlet{title}{tudelft-cyan}
 \fi
 \colorlet{thumb}{anthracite}
 
@@ -167,12 +157,7 @@
         bindingoffset = -3mm
     }
 \else
-    \geometry{
-		papersize = {176mm,246mm},
-        layoutsize = {170mm,240mm},
-        layoutoffset = {3mm,3mm},
-        bindingoffset = 3mm
-	}
+    \geometry{papersize={170mm,240mm}}
 \fi
 %% We decrease the margins slightly from the default (scale = 0.7).
 \geometry{hscale=0.75,vscale=0.8}
@@ -320,13 +305,8 @@
 \fancypagestyle{mainmatter}{%
     \fancyhf{}
     %% Page numbers on the top left and top right.
-    %%E	even page
-    %%O	odd page
-    %%L	left side
-    %%C	centered
-    %%R	right side
-    \fancyfoot[LE]{\cropmarks\lthumb\titlefont\thepage}
-    \fancyfoot[RO]{\cropmarks\rthumb\titlefont\thepage}
+    \fancyhead[LE]{\cropmarks\lthumb\titlefont\thepage}
+    \fancyhead[RO]{\cropmarks\rthumb\titlefont\thepage}
     %% Chapter name on the left (even) page.
     \fancyhead[RE]{\titlefont\titleshape\nouppercase{\leftmark}}
     %% Section name on the right (odd) page.
@@ -388,7 +368,7 @@
 %% Section titles start with the number in bold, followed by the name printed
 %% in the title color.
 \titleformat{\section}
-    {\large\headerstyle}
+    {\Large\headerstyle}
     {\bfseries\thesection.\ }
     {0pt}
     {\color{title}}
@@ -479,8 +459,8 @@
     \lettrine[lines=2,findent=0.2em,nindent=0pt]{\color{title} #1}{#2}%
 }
 
-% Create an unnumbered reference section.
-\addto\captionsenglish{\renewcommand*\bibname{\color{title}}}
+%% Create an unnumbered reference section.
+\addto\captionsenglish{\renewcommand*\bibname{\color{title}References}}
 \newcommand*\references[1]{%
     \bibliographystyle{dissertation}%
     \bibliography{#1}%
