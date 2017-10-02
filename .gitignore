@@ -1,6 +1,7 @@
 *.doc
 *.pdf
 *.eps
+*.png
 #TEX outputs
 *.out
 *.aux
