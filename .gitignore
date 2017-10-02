@@ -13,6 +13,9 @@
 *.m~
 *.asv
 *.gz
+*.bak
+*.fdb_latexmk
+*.fls
 #Python outputs
 *.ipynb_checkpoints
 *.ipynb
