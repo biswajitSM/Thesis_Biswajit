@@ -1,10 +1,9 @@
-\documentclass[print]{dissertation}
-
+\documentclass{dissertation}
 % FIGURES
 \usepackage{xr} 
 \usepackage{graphicx}
-\usepackage{rotating}        % rotated figures
-\usepackage{epstopdf}        % enable eps figures
+\usepackage{rotating}
+% \usepackage{epstopdf}
 \usepackage[font={small, it},      % small caption size
 labelfont=bf,                % bold "Figure"
 labelsep=period]{caption}    % separate Figure from text swith period
@@ -14,7 +13,6 @@ labelsep=period]{caption}    % separate Figure from text swith period
 \usepackage[version=3]{mhchem} 	% Formula subscripts using \ce{}
 \usepackage{chemformula}
 
-%===========new commands==============
 % PHYSICAL UNIT FORMATTING
 \usepackage[separate-uncertainty = true,
 detect-all = true,
@@ -29,29 +27,26 @@ multi-part-units = single]{siunitx}
 \DeclareSIUnit[number-unit-product = {}]\uM{ \micro M}
 \DeclareSIUnit[number-unit-product = {}]\nM{ \nano M}
 \DeclareSIUnit[number-unit-product = {}]\pM{ \pico M}
-
 \newcommand*\me[1]{\ensuremath{\bar{#1}\,}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% Start the main part of the THESIS here.%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% MISC
+\newcommand{\squeezeup}{\vspace{-2.5mm}}
+
+%%%%%%%%%%%%%%%%%%% MAIN PART %%%%%%%%%%%%%%
 \begin{document}
-%% Include an optional title page.
+\title[]{Fluorescence of Single Copper Proteins: Dynamic Disorder and Enhancement by a Gold Nanorod}
+\author{Biswajit}{Pradhan}
 %\input{title}
-%
 %\input{preface}
-
 \tableofcontents
-
-%% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
 %==========Chapters================
+\thumbtrue
 % \input{chapters/c1_intro/intro}
 \input{chapters/c2_bilayer_efcs/bilayer_efcs}
 % \input{chapters/c3_binfree/binfree}
 \input{chapters/c4_azurin_sm/azurin}
 % \input{chapters/c5_transient_binding/transient_binding}
-% \input{chapters/c6_scat_corr/c6_scat_corr}
-
 %========bibliography===========
 % \newpage
 \references{bibliography}
@@ -60,6 +55,4 @@ multi-part-units = single]{siunitx}
 
 %% Turn off thumb indices for unnumbered chapters.
 \thumbfalse
-%\input{appendix-a}
-
 \end{document}
