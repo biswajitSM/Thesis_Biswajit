@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="8cm"
+   height="5.5999999cm"
+   viewBox="0 0 283.46457 198.42519"
    id="svg3913"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Figure4_20160921.svg"
+   sodipodi:docname="lifetime_enhnc.svg"
    inkscape:export-filename="P:\Research\Reports and Presentation\reports\GNR_SLB_Diffusion_MS1\manuscript\data_bilayer_Atto647n_EFCS\zoomed in timetraces\Figure4_20160921.png"
    inkscape:export-xdpi="500"
    inkscape:export-ydpi="500">
@@ -24,9 +24,9 @@
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 526.1811 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09449 : 526.1811 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.7874 : 1"
+       inkscape:vp_y="0 : 999.99999 : 0"
+       inkscape:vp_z="744.09448 : 526.1811 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78741 : 1"
        id="perspective4062" />
     <clipPath
        id="clipPath1"
@@ -397,17 +397,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3202547"
-     inkscape:cx="475.85559"
-     inkscape:cy="577.93948"
+     inkscape:zoom="4.5810715"
+     inkscape:cx="141.73228"
+     inkscape:cy="99.212597"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4047"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="1002"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1916"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="cm" />
   <metadata
      id="metadata3918">
     <rdf:RDF>
@@ -416,42 +417,43 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-853.93712)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="529.88788"
-       y="416.66058"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="208.04333"
+       y="904.05829"
        id="text8828"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8830"
-         x="529.88788"
-         y="416.66058"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '">C</tspan></text>
+         x="208.04333"
+         y="904.05829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-size:10px;">C</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5272-3"
-       y="419.61902"
-       x="532.47601"
-       style="font-style:normal;font-weight:normal;font-size:15.91009712px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+       y="907.01672"
+       x="210.63147"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
-         y="419.61902"
-         x="532.47601"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';"
+         y="907.01672"
+         x="210.63147"
          id="tspan5274-9"
          sodipodi:role="line">C</tspan></text>
     <g
        style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
        id="g4946"
-       transform="matrix(0.36909449,0,0,0.36909449,331.86893,341.41024)">
+       transform="matrix(0.36909449,0,0,0.36909449,10.024383,828.80792)">
       <g
          id="g4047">
         <defs
@@ -600,28 +602,9 @@
           </font>
         </defs>
         <g
-           id="g4104"
-           style="fill:#ffffff;stroke:#ffffff">
-          <rect
-             clip-path="url(#clipPath1)"
-             id="rect4106"
-             height="576"
-             style="stroke:none"
-             width="768"
-             y="0"
-             x="0" />
-        </g>
-        <g
            id="g4108"
-           style="color-interpolation:sRGB;fill:#ffffff;stroke:#ffffff;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed">
-          <rect
-             clip-path="url(#clipPath1)"
-             id="rect4110"
-             height="576"
-             style="stroke:none"
-             width="768"
-             y="0"
-             x="0" />
+           style="color-interpolation:sRGB;fill:#ffffff;stroke:#ffffff;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed"
+           transform="translate(2.4007907e-7,32.512001)">
           <path
              id="path4112"
              d="m 102,494 593,0 0,-451 -593,0 z"
@@ -631,19 +614,20 @@
         <g
            id="g4114"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(398.5,540.1969)">
+           transform="translate(398.5,572.70892)">
           <text
              id="text4116"
-             style="stroke:none"
-             y="29.195299"
+             style="font-size:27.09333229px;stroke:none"
+             y="18.357965"
              xml:space="preserve"
-             x="-47.109402"><tspan
-               style="font-size:40.63999939px"
+             x="-36.272068"><tspan
+               style="font-size:27.09333229px"
                id="tspan5401">time/ns</tspan></text>
         </g>
         <g
            id="g4118"
-           style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision">
+           style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
+           transform="translate(2.4007907e-7,32.512001)">
           <line
              id="line4120"
              y1="494"
@@ -732,71 +716,72 @@
         <g
            id="g4144"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(250.25,503.0667)">
+           transform="translate(250.25,535.57872)">
           <text
              id="text4146"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="29.195299"
              xml:space="preserve"
              x="-8"><tspan
-               style="font-size:33.86666489px"
+               style="font-size:27.0933332px;"
                id="tspan5403">5</tspan></text>
         </g>
         <g
            id="g4148"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(398.5,503.0667)">
+           transform="translate(398.5,535.57872)">
           <text
              id="text4150"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="29.195299"
              xml:space="preserve"
              x="-16"><tspan
-               style="font-size:33.86666489px"
+               style="font-size:27.0933332px;"
                id="tspan5405">15</tspan></text>
         </g>
         <g
            id="g4152"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(546.75,503.0667)">
+           transform="translate(546.75,535.57872)">
           <text
              id="text4154"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="29.195299"
              xml:space="preserve"
              x="-16"><tspan
-               style="font-size:33.86666489px"
+               style="font-size:27.0933332px;"
                id="tspan5407">25</tspan></text>
         </g>
         <g
            id="g4156"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(695,503.0667)">
+           transform="translate(695,535.57872)">
           <text
              id="text4158"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="29.195299"
              xml:space="preserve"
              x="-16"><tspan
-               style="font-size:33.86666489px"
+               style="font-size:27.0933332px;"
                id="tspan5409">35</tspan></text>
         </g>
         <g
            id="g4160"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="matrix(0,-1,1,0,35.9333,268.5)">
+           transform="matrix(0,-1,1,0,35.9333,301.01202)">
           <text
              id="text4162"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="-6.6016002"
              xml:space="preserve"
              x="-137.5529"><tspan
-               style="font-size:40.63999939px"
+               style="font-size:27.0933332px;"
                id="tspan5399">Normalized counts</tspan></text>
         </g>
         <g
            id="g4164"
-           style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision">
+           style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
+           transform="translate(2.4007907e-7,32.512001)">
           <line
              id="line4166"
              y1="494"
@@ -843,23 +828,23 @@
         <g
            id="g4178"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(39,334)">
+           transform="translate(39,366.51202)">
           <text
              id="text4180"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="-5.4186668"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:33.86666489px"
+               style="font-size:27.0933332px;"
                id="tspan5397">0.01</tspan></text>
         </g>
         <g
            id="g4182"
            style="font-size:25px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(71,318)">
+           transform="translate(71,350.51202)">
           <text
              id="text4184"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="0"
              xml:space="preserve"
              x="0" />
@@ -867,10 +852,10 @@
         <g
            id="g4186"
            style="font-size:32px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(47,64)">
+           transform="translate(47,96.512002)">
           <text
              id="text4188"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="-5.4186668"
              xml:space="preserve"
              x="27.093334">1</text>
@@ -878,17 +863,18 @@
         <g
            id="g4190"
            style="font-size:25px;font-family:'Times New Roman';color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-           transform="translate(79,48)">
+           transform="translate(79,80.512002)">
           <text
              id="text4192"
-             style="stroke:none"
+             style="stroke:none;font-size:27.0933332px;"
              y="0"
              xml:space="preserve"
              x="0" />
         </g>
         <g
            id="g4194"
-           style="color-interpolation:linearRGB;fill:#669900;stroke:#669900;stroke-width:2;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision">
+           style="color-interpolation:linearRGB;fill:#669900;stroke:#669900;stroke-width:2;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
+           transform="translate(2.4007907e-7,32.512001)">
           <line
              id="line4196"
              y1="437.11209"

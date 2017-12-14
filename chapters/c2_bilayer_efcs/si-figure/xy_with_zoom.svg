@@ -60,17 +60,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5748465"
-     inkscape:cx="365.23203"
-     inkscape:cy="266.01318"
+     inkscape:zoom="1.8324286"
+     inkscape:cx="265.74803"
+     inkscape:cy="248.0315"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1056"
+     inkscape:window-width="1919"
+     inkscape:window-height="1047"
      inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      units="cm"
      inkscape:snap-bbox="true" />
   <metadata
@@ -366,11 +366,11 @@
            transform="matrix(0,-1,1,0,542.0333,202.5)">
           <text
              id="text3991"
-             style="stroke:none"
+             style="stroke:none;font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="33.757099"
              xml:space="preserve"
              x="-109.49653"><tspan
-               style="font-size:45.043293px"
+               style="font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4455">Counts/kcps</tspan></text>
         </g>
         <g
@@ -425,7 +425,7 @@
            transform="translate(494.5333,305.5098)">
           <text
              id="text4009"
-             style="stroke:none"
+             style="stroke:none;font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">100</text>
@@ -436,7 +436,7 @@
            transform="translate(494.5333,236.8824)">
           <text
              id="text4013"
-             style="stroke:none"
+             style="stroke:none;font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">200</text>
@@ -447,7 +447,7 @@
            transform="translate(494.5333,168.2549)">
           <text
              id="text4017"
-             style="stroke:none"
+             style="stroke:none;font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">300</text>
@@ -458,7 +458,7 @@
            transform="translate(494.5333,99.6274)">
           <text
              id="text4021"
-             style="stroke:none"
+             style="stroke:none;font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">400</text>
@@ -469,7 +469,7 @@
            transform="translate(494.5333,31)">
           <text
              id="text4025"
-             style="stroke:none"
+             style="stroke:none;font-size:30.02886314px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">500</text>
@@ -812,11 +812,11 @@
            transform="matrix(0,-1,1,0,536.7833,202.5)">
           <text
              id="text4222"
-             style="stroke:none"
+             style="stroke:none;font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="33.757099"
              xml:space="preserve"
              x="-115.28622"><tspan
-               style="font-size:44.63816452px"
+               style="font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4457">Counts/kcps</tspan></text>
         </g>
         <g
@@ -871,7 +871,7 @@
            transform="translate(496.5333,31)">
           <text
              id="text4240"
-             style="stroke:none"
+             style="stroke:none;font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">0.2</text>
@@ -882,7 +882,7 @@
            transform="translate(496.5333,103.2105)">
           <text
              id="text4244"
-             style="stroke:none"
+             style="stroke:none;font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">1</text>
@@ -893,7 +893,7 @@
            transform="translate(496.5333,193.4737)">
           <text
              id="text4248"
-             style="stroke:none"
+             style="stroke:none;font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">2</text>
@@ -904,7 +904,7 @@
            transform="translate(496.5333,283.7368)">
           <text
              id="text4252"
-             style="stroke:none"
+             style="stroke:none;font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">3</text>
@@ -915,7 +915,7 @@
            transform="translate(496.5333,374)">
           <text
              id="text4256"
-             style="stroke:none"
+             style="stroke:none;font-size:29.75877566px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0">4</text>
@@ -1241,11 +1241,11 @@
            transform="matrix(0,-1,1,0,536.7833,202.5)">
           <text
              id="text3748"
-             style="stroke:none"
+             style="stroke:none;font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="1.1066189"
              xml:space="preserve"
              x="-53.386993"><tspan
-               style="font-size:22.31908226px"
+               style="font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4121">Counts/kcps</tspan></text>
         </g>
         <g
@@ -1300,11 +1300,11 @@
            transform="translate(496.5333,31)">
           <text
              id="text3766"
-             style="stroke:none"
+             style="stroke:none;font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.40655327px"
+               style="font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4125">0.2</tspan></text>
         </g>
         <g
@@ -1313,11 +1313,11 @@
            transform="translate(496.5333,103.2105)">
           <text
              id="text3770"
-             style="stroke:none"
+             style="stroke:none;font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.40655327px"
+               style="font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4127">1</tspan></text>
         </g>
         <g
@@ -1326,11 +1326,11 @@
            transform="translate(496.5333,193.4737)">
           <text
              id="text3774"
-             style="stroke:none"
+             style="stroke:none;font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.40655327px"
+               style="font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4129">2</tspan></text>
         </g>
         <g
@@ -1339,11 +1339,11 @@
            transform="translate(496.5333,283.7368)">
           <text
              id="text3778"
-             style="stroke:none"
+             style="stroke:none;font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.40655327px"
+               style="font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4131">3</tspan></text>
         </g>
         <g
@@ -1352,11 +1352,11 @@
            transform="translate(496.5333,374)">
           <text
              id="text3782"
-             style="stroke:none"
+             style="stroke:none;font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.40655327px"
+               style="font-size:14.87938783px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4133">4</tspan></text>
         </g>
         <g
@@ -1685,11 +1685,11 @@
            transform="matrix(0,-1,1,0,542.0333,202.5)">
           <text
              id="text3982"
-             style="stroke:none"
+             style="stroke:none;font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="9.0469904"
              xml:space="preserve"
              x="-39.313423"><tspan
-               style="font-size:22.52164841px"
+               style="font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4123">Counts/kcps</tspan></text>
         </g>
         <g
@@ -1744,11 +1744,11 @@
            transform="translate(494.5333,305.5098)">
           <text
              id="text4000"
-             style="stroke:none"
+             style="stroke:none;font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.59176254px"
+               style="font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4143">100</tspan></text>
         </g>
         <g
@@ -1757,11 +1757,11 @@
            transform="translate(494.5333,236.8824)">
           <text
              id="text4004"
-             style="stroke:none"
+             style="stroke:none;font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.59176254px"
+               style="font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4141">200</tspan></text>
         </g>
         <g
@@ -1770,11 +1770,11 @@
            transform="translate(494.5333,168.2549)">
           <text
              id="text4008"
-             style="stroke:none"
+             style="stroke:none;font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.59176254px"
+               style="font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4139">300</tspan></text>
         </g>
         <g
@@ -1783,11 +1783,11 @@
            transform="translate(494.5333,99.6274)">
           <text
              id="text4012"
-             style="stroke:none"
+             style="stroke:none;font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.59176254px"
+               style="font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4137">400</tspan></text>
         </g>
         <g
@@ -1796,11 +1796,11 @@
            transform="translate(494.5333,31)">
           <text
              id="text4016"
-             style="stroke:none"
+             style="stroke:none;font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
              y="10.7847"
              xml:space="preserve"
              x="0"><tspan
-               style="font-size:20.59176254px"
+               style="font-size:15.01443202px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
                id="tspan4135">500</tspan></text>
         </g>
         <g
@@ -1882,7 +1882,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:sans-serif;font-stretch:normal;font-variant:normal;"
        x="125.47176"
        y="801.28943"
        id="text5512"
@@ -1891,10 +1891,10 @@
          id="tspan5514"
          x="125.47176"
          y="801.28943"
-         style="font-size:15px">A</tspan></text>
+         style="font-size:10px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:sans-serif;font-stretch:normal;font-variant:normal;"
        x="125.04446"
        y="1050.845"
        id="text5512-5"
@@ -1903,10 +1903,10 @@
          id="tspan5514-3"
          x="125.04446"
          y="1050.845"
-         style="font-size:15px">B</tspan></text>
+         style="font-size:10px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:sans-serif;font-stretch:normal;font-variant:normal;"
        x="415.23148"
        y="721.28906"
        id="text5512-56"
@@ -1915,10 +1915,10 @@
          id="tspan5514-2"
          x="415.23148"
          y="721.28906"
-         style="font-size:15px">C</tspan></text>
+         style="font-size:10px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">C</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:sans-serif;font-stretch:normal;font-variant:normal;"
        x="418.40637"
        y="961.94745"
        id="text5512-9"
@@ -1927,6 +1927,6 @@
          id="tspan5514-1"
          x="418.40637"
          y="961.94745"
-         style="font-size:15px">D</tspan></text>
+         style="font-size:10px;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">D</tspan></text>
   </g>
 </svg>

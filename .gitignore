@@ -25,4 +25,4 @@
 *.sublime-project
 *.sublime-workspace
 #=================KEEP these files=======================
-!thesis.pdf
+# !thesis.pdf

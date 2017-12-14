@@ -1,57 +1,40 @@
 \documentclass[print]{dissertation}
 
+% FIGURES
 \usepackage{xr} 
 \usepackage{graphicx}
-\usepackage{siunitx}
-\usepackage{chemformula}
-\usepackage{chemstyle}
+\usepackage{rotating}        % rotated figures
+\usepackage{epstopdf}        % enable eps figures
+\usepackage[font={small, it},      % small caption size
+labelfont=bf,                % bold "Figure"
+labelsep=period]{caption}    % separate Figure from text swith period
+\usepackage[section]{placeins} % always place figures in section
 
+% CHEMICAL FORMULAS
+\usepackage[version=3]{mhchem} 	% Formula subscripts using \ce{}
+\usepackage{chemformula}
 
 %===========new commands==============
-\newcommand*\commentauthor[1]{\textbf{{\textit{#1}}}}
-\newcommand*\me[1]{\ensuremath{\bar{#1}\,}}
-\newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
+% PHYSICAL UNIT FORMATTING
+\usepackage[separate-uncertainty = true,
+detect-all = true,
+range-phrase = --,
+range-units = single,
+list-units = single,
+multi-part-units = single]{siunitx}
+\DeclareSIUnit[number-unit-product = {}]\uL{ \micro\liter}
+\DeclareSIUnit[number-unit-product = {}]\fL{ \femto\liter}
+\DeclareSIUnit[number-unit-product = {}]\umol{ \micro \mole}
+\DeclareSIUnit[number-unit-product = {}]\mM{ \milli M}
+\DeclareSIUnit[number-unit-product = {}]\uM{ \micro M}
+\DeclareSIUnit[number-unit-product = {}]\nM{ \nano M}
+\DeclareSIUnit[number-unit-product = {}]\pM{ \pico M}
 
-\newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
-\newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
-\newcommand{\nM}{\ensuremath{\,\textrm{nM}}}
-\newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
-\newcommand{\mM}{\ensuremath{\,\m\textrm{M}}}
-\newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
-\newcommand{\mW}{\ensuremath{\,\textrm{mW}}}
-\newcommand{\W}{\ensuremath{\,\textrm{W}}}
-\newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
-\newcommand{\um}{\ensuremath{\,\mu\textrm{m}}}
-\newcommand{\pM}{\ensuremath{\,\textrm{pM}}}
-\newcommand{\pwr}{\ensuremath{\,\textrm{kW/cm}^2}}
-\newcommand{\CPS}{\ensuremath{\,\textrm{CPS}}}
-\newcommand{\kCPS}{\ensuremath{\,\textrm{kCPS}}}
-\newcommand{\atto}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
-\newcommand{\K}{\ensuremath{\,\textrm{K}}}
-\newcommand{\mm}{\ensuremath{\,\textrm{mm}}}
-\newcommand{\m}{\ensuremath{\,\textrm{m}}}
-\newcommand{\fs}{\ensuremath{\,\textrm{fs}}}
-\newcommand{\ps}{\ensuremath{\,\textrm{ps}}}
-\newcommand{\ns}{\ensuremath{\,\textrm{ns}}}
-\newcommand{\ms}{\ensuremath{\,\textrm{ms}}}
-\newcommand{\s}{\ensuremath{\,\textrm{s}}}
-\newcommand{\degree}{\ensuremath{\,^o\textrm{C}}}
-% \graphicspath{{./figures}}
+\newcommand*\me[1]{\ensuremath{\bar{#1}\,}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% Start the main part of the THESIS here.%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
-%% Use Roman numerals for the page numbers of the title pages and table of
-%% contents.
-\frontmatter
-
-%\title[Optional Subtitle]{Title}
-%\author{J.\ Random Author}
-%\affiliation{Technische Universiteit Delft}
-%\coverimage{cover.jpg}
-%\makecover
-
 %% Include an optional title page.
 %\input{title}
 %
@@ -62,7 +45,7 @@
 %% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
 %==========Chapters================
-\input{chapters/c1_intro/intro}
+% \input{chapters/c1_intro/intro}
 \input{chapters/c2_bilayer_efcs/bilayer_efcs}
 % \input{chapters/c3_binfree/binfree}
 \input{chapters/c4_azurin_sm/azurin}
@@ -71,11 +54,9 @@
 
 %========bibliography===========
 % \newpage
-% \references{chapters/c4_azurin_sm/azurin}
-%% Use letters for the chapter numbers of the appendices.
+\references{bibliography}
 %=========Apendix===============
 \appendix
-% \include{chapters/c4_azurin_sm/si_azurin}
 
 %% Turn off thumb indices for unnumbered chapters.
 \thumbfalse
