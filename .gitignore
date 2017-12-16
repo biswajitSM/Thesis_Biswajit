@@ -20,7 +20,6 @@
 #Python outputs
 *.ipynb_checkpoints
 *.ipynb
-*.py
 #Project files
 *.sublime-project
 *.sublime-workspace
