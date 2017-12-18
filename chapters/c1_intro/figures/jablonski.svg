@@ -23,18 +23,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.1500342"
-     inkscape:cx="230.31496"
+     inkscape:zoom="3.5510918"
+     inkscape:cx="203.74016"
      inkscape:cy="88.582677"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="cm"
-     inkscape:window-width="1920"
+     inkscape:window-width="1916"
      inkscape:window-height="1047"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid4155"
@@ -494,7 +494,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -931,5 +931,49 @@
        d="m 306,892.36223 10,0 0,50 -10,0"
        id="path10249"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90.066231"
+       y="1010.7667"
+       id="text4404"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4406"
+         x="90.066231"
+         y="1010.7667"
+         style="font-size:10px">Γ<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan4408">r</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="172.80013"
+       y="1024.3125"
+       id="text4404-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4406-6"
+         x="172.80013"
+         y="1024.3125"
+         style="font-size:10px">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4441">n</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan4408-7">r</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="20.791761"
+       y="1012.4686"
+       id="text4404-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4406-3"
+         x="20.791761"
+         y="1012.4686"
+         style="font-size:10px">Γ<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan4408-5">exc</tspan></tspan></text>
   </g>
 </svg>

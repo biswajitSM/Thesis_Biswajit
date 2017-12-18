@@ -4,7 +4,7 @@
 %=========== MAIN ================
 This chapter contains the basics needed for the work done in this thesis.
 Towards the end of this chapter, an overview of all the chapters is given.
-%============== MAIN ================
+
 \section{Fluorescence}
 The absorption and subsequent emission of light by materials is called fluorescence.
 The term Fluorescence was named by \textit{George Gabriel Stokes} after observing ultraviolet light being transformed into visible light in the mineral fluorite.\cite{Stokes1852}
@@ -18,7 +18,7 @@ The processes between the absorption and the emission is normally represented gr
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{jablonski}
-	\caption{\textbf{Jablonski Diagram}}
+	\caption{\textbf{Jablonski Diagram.} Simplified model of events in fluorescence. A molecule is promoted to the excited electronic state bu absorbing a photon. Non-radiative relaxation processes bring it to the lowest vibrational state of first electronic state from where it can either a emit a photon or release the energy as heat or make a trnsition to triplet state.}
 	\label{fig:jablonski}
 \end{figure}
 
@@ -84,18 +84,109 @@ Because of the diffraction limit ($\Delta{x}={\lambda}/2$), FCS is often limited
 
 Two of the important requirements to measure single molecules with high spatial and temporal resolution are (i) high fluorescence yield and (i) small excitation and detection volume.
 In this thesis we push the limit of single-molecule detection to low quantum yield dyes and to high concentration of fluorophore.
-\section{TCSPC}
 
-\section{FRET}
+\section{TCSPC}
+The fluorescence signals is normally recorded as intensity which is obtained by recording the voltage per unit time generated in a photo diode.
+The advancement in sensitive detectors enabled the detection of the fundamental unit (quanta) of light, single photons.
+Every bit of information about a single molecule can be extracted when all the photons are registered in both space and time.
+The time resolved technique used to record the information about photons is known as Time Correlated Single Photon Counting (TCSPC).
+The technique require a pulsed laser with high repetition rate (\SI{\sim80}{\MHz}) and high time resolution (picoseconds).
+TCSPC is suitable for low signal with less than one photons in average per laser pulse.
+With each pulse of laser there is a probability of promotion of the molecule to the excited electronic state which depends on the excitation crossection, intensity of the laser and electronic state the molecule.
+Once excited the molecule may emit a photon whose probability depends on the quantum radiative and nonradiative rate of the relaxation from its excited state.
+The fluorescence lifetime can be given as:
+\begin{equation}
+	\tau = \frac{1}{\Gamma_{r} + \Gamma_{nr}}
+\end{equation}
+The arrival time of the emitted photon after laser pulse is called micro-time(t\_micro) and the absolute arrival time from the start of the measurement called macro-time(t\_macro).
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{tcspc_sch}
+	\caption{\textbf{TCSPC.} (A) The schematic of time resolve experiment showing the laser pulses and subsequently detected photons are shown in the red dots.
+	The arrival time after the laser pulse is known as micro-time and the arrival time after the start of measurement is called macro-time.
+	(B) The histogram of the micro-times gives the life time of the fluorophores.}
+	\label{fig:tcspc_sch}
+\end{figure}
+The advantages of TCSPC measurements can be summarized as following:
+\begin{itemize}
+	\item \textbf{Binning free.} As each photon is recorded with its arrival time, TCSPC is binning free unlike the intensity measurements.
+	Intensity traces with any binning time can be produced from the macro-times.
+	Dynamics of molecules on any time scale ranging from nanoseconds to seconds can be extracted and the time scale is only limited by resolution of the detector and the laser and by total recording time.
+	Fluorescence correlation spectroscopy (FCS) utilizes the leverages provided by TCSPC and gives dynamics on many order of time scale in a single autocorrelation curve.
+	\item \textbf{Lifetime.} Arrival times of photons (t\_micro) follow a Poisson distribution and the average fluorescence lifetime can be obtained by fitting the histogram of micro-time (Figure \ref{fig:tcspc_sch}B).
+	Lifetime can not only give the intrinsic decay rate of the excited fluorophore, it also carries informations of the immediate sounding with which it interacts.
+	Other applications of lifetime measurements are fluorescence resonance energy transfer (FRET), fluorescence lifetime imaging.\cite{selvin2000the,lakowicz1992fluorescence} 
+	\item \textbf{Micro-Macro linking.} As each photon is stamped with micro and macro times, correlations can be extracted between the lifetime and dynamics of the macomolecules.
+	Complex systems with multiple fluorophores with varying lifetime can be simplified and individual fluoroscence can be decoupled.
+\end{itemize}
+in this thesis, TCSPC is used extensively.
+In Chapter-2, both micro and macro times are used to distinguish the useful photons from the less useful ones.
+Chapter-3 utilizes the inter-photon times (t\_macro(i+1) - t\_macro(i+1)) to extract information that are mis-represented by the binning methods.
+In chapter-4, the potential of TCSPC is tested to answer whether an enzyme is dynamically-heterogeneous or monotonic. 
 %
-\section{Optical Nanoantennas}
-\section{Gold nanorod surface plasmon}
-\section{Fluorescence Enhancement by plasmonics}
+\section{Optical Nano-antennae for single molecules}
+Single molecules technique is limited to high quantum yield (\SI{>10}{\percent}) fluorophores or diluted number (\SI{\sim1}{\nM}) of molecules.
+A large fraction of absorbing molecules including biomolecules and metal complexes show weak fluorescence with very low quantum yield (\SI{<1}{\percent}).
+Additional unwanted auto-fluoresce in physiological environment often reduces the signal to noise ratio.
+Diffraction limited optical volume of \SI{1}{fL} imposes a limit in the concentration of fluorophores to isolate single molecules in a milieu.
+A majority of physiological reactions involving proteins and enzymes require milli to micro molar concentrations to perform usual activities.\cite{craighead2006future,punj2013gold,fabrizio2016roadmap,punj2014thesis}
+Such physiology at micromolar concentrations can't be studied by the conventional microscopes.
+Nano-plasmonics is a promising solution that can tackles both the concentration-limit by light-confinement and quantum yield by enhancing the quantum yield.
+
+Optical nano-antennae are similar to the radio antennas in the macro scale.
+Antennas are used to control and manipulate electromagnetic (EM) waves in the sub-wavelength scale.
+Currents from a transmitter can be coupled to an antenna and radiated as EM wave to the far-field while on the other end EM waves in the far-field can be coupled to the antenna and send it to the receiver (Figure \ref{fig:nano_antenna}A,B).
+Marconi used tens of meter antenna to control kilometer waves. 
+The antennae can be scaled down to nanoscale to control nanometer waves which include the optical frequencies.
+However the optical frequencies approach the frequency of the free electron on metals exciting their resonant frequencies called \textit{surface plasmon resonance (SPR)}.
+Because of the plasmon excitation, they provide strong near-field enhancement and thus leading to confinement EM to local hotshots.
+In addition to SPR effect, the local electric field is also enhanced by the lightening rod effect which is a result of the high charge density at the curvatures or edges of the antennae.
+Compared to $\lambda/2$ diffraction limit of light, plasmonics can control light down to ${<}\lambda/10$.
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{nano_antenna}
+	\caption{\textbf{Optical nano-antenna.} Antenna coupled to the transmitter (A) and receiver (B) and the direction of energy flow is shown with the direction of the arrows.
+	Free propagating light waves getting converted to localized energy and localized energy being being radiated to the far-field.
+	(C) Examples of nano antennas with the enhanced electric field.
+	The color scales are indication of the electric field ($|E|$) or intensity ($|E|^2$) indicated close to the nano-structures.}
+	\label{fig:nano_antenna}
+\end{figure}
+The fluorescence of an emitter placed in the near-field of a nano-antenna will be influenced by (i) the enhanced field and (ii) accelerated decay rate.
+Because of the high light intensity in the near-field, the fluorophore will be pumped harder which is known as excitation enhancement.
+The transition probability of an emitter governed by the Fermi's Golden rule depends on the local density of states (LDOS) in addition to the transition matrix element between the two states.
+Nano-antennae significantly modifies the LDOS by enhancing the radiative rates of the emitter leading to increase in the quantum yield which is known as emission enhancement.
+Close to the metal surface, additional non-radiative channels lead to quenching of fluorescence via losses.
+Thus the resultant enhancement depends upon the emitter's position, orientation with respect to the antenna and overlap of its emission spectra with the resonance of the antenna.
+
+The strength of the field enhancement and the field volume depends on the complexity of the nanostructure as shown in Figure \ref{fig:nano_antenna}C.
+The goodness of an antenna is judged by the large field enhancement factor smaller mode volume.
+Bow tie antenna and antenna-in-box provides high field enhancement and small near-field volume but requires tedious and expensive lithographic expertise.\cite{novotny2011antennas,regmi2017thesis}
+Gold nano-sphere is the simplest and cheapest form of nano-antenna but it gives low field enhancement and large near-field volume.\cite{punj2013gold}
+Gold nanorods lies somewhere in the middle giving comparable field enhancement though with larger field-volume. For this thesis, gold nanorod remains the choice as a nano-antenna because:
+\begin{itemize}
+	\item Field enhancement is comparable to the best antennae available.
+	\item The plasmon resonance can be tuned from green to far-infrared simply by changing the aspect ratio of the rod.\cite{link1999simulation}
+	The width of the plasmon can be controlled as well by changing the volume of the rod.
+	Narrow surface plasmon resonances is helpful for selective enhancement of emitters while broad resonance can be used to enhance broader spectrum of dye.\cite{yuan2013thousandfold,khatua2014resonant}
+	\item Gold nanorods can be cheaply mass produced by colloidal synthesis methods with very smooth crystalline surface.\cite{nikoobakht2003preparation,perezjuste2005gold}
+	\item Accessibility. As nanorods are small and colloidal in nature, they can be easily inserted into living cells.
+	In fact, because of their luminescent nature, they are already being used in living cells or tissues for imaging.
+	\item Selective reactivity. Gold is inert and harmless for the living organisms unlike other metals like silver.
+	It has high affinity towards thiols opening the possibility chemical functionalizations.
+\end{itemize}
 %
-\section{Enzymology and Electron transfer}
-\section{Protein at work are Proteins in Motion}
-\section{Azurin: a copper containing redox protein}
-\section{Flurox Principle}
-\subsection*{FRET as Redox state indicator}
+\section{Protein at work are the Proteins in Motion}
+Proteins and enzymes are the machinery inside living cells that perform both mechanical work and energy maintenance.
+Often the proteins or enzymes are pictured by their static structures in crystallography or average structure of a large ensemble of conformations.
+The functions of protein are governed by their dynamical motions.
+A multidimensional energy landscape and different kinetic barriers govern the complex coordinated motion a protein requires.
+A fourth dimension, time has been added to investigate their activity giving unprecedented insights to their properties.
+Enzymes perform chemical reactions by binding with the substrate and minimizing the energy required for the formation product.
+Spectroscopic studies done in the 80's and recent nuclear magnetic resonance (NMR) investigations show the amplitude and duration of structural fluctuation involved in the function of enzyme catalysis and protein function.
+Movements are predicted in time scale ranging from picoseconds corresponding to atomic movements to milliseconds involving movement of bigger domains.\cite{henzler-wildman2007dynamic,frauenfelder1991the}
+
+
+\section{Azurin: an Electron Transfer Protein}
+\section{Flurox Principle(FRET-redox)}
 %
 \section{This thesis}
