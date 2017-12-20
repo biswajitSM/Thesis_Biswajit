@@ -5,10 +5,13 @@ all:
 	pdflatex -interaction=nonstopmode thesis.tex
 	pdflatex -interaction=nonstopmode thesis.tex
 	evince thesis.pdf &
+
 read:
 	evince thesis.pdf &
+
 svgtopdf:
 	python all_svg2pdf.py
+
 #needs bibtool installations
 bib-combine:
 	bibtool -s \
@@ -18,9 +21,12 @@ bib-combine:
 	chapters/c5_transient_binding/transient_binding.bib \
 	chapters/c4_azurin_sm/azurin.bib \
 	-o bibliography.bib
+
 clean-all:
 	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.pdf *.toc *.out *~
+
 clean:
 	rm -f *.log *.bak *.aux *.bbl *.blg *.idx *.toc *.out *~
+
 gen-bibliography:
 	bibtool -x bibliography.aux -o bib_generated.bib
