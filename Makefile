@@ -29,4 +29,4 @@ clean:
 	rm -f *.log *.bak *.aux *.bbl *.blg *.idx *.toc *.out *~
 
 gen-bibliography:
-	bibtool -x bibliography.aux -o bib_generated.bib
+	bibtool -x thesis.aux -o bib_generated.bib

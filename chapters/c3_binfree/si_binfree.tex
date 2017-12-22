@@ -1,6 +1,6 @@
 \section{Supporting Info}
 \graphicspath{{./chapters/c3_binfree/si_figure/}}
-
+% =========== MAIN =================
 \section*{Transient Binding sample preparation}
 
 
@@ -64,7 +64,6 @@ Figure \ref{fg:square_beam}(a) shows an example in a particular case when the di
 
 
  \begin{figure}
- \centering
  \includegraphics[width=\textwidth]{square_illumination}%
  \caption{\textbf{Simple illumination profile that provides an analytical solution to test the simulation code} 
 (a) Colormap plot of the square-shaped beam we use for validating the code. We used $x_0=y_0=182$ nm and $I_0=1000$ cps.
@@ -76,27 +75,25 @@ Figure \ref{fg:square_beam}(a) shows an example in a particular case when the di
 %\figdouble{square_illumination}{square_illumination_analytical}{fg:square_beam}{Simple illumination profile that provides an analytical solution to test the simulation code}{ \figa Colormap plot of the square-shaped beam we use for validating the code. We used $x_0=y_0=182$ nm and $I_0=1000$ cps. \figb }
 
 
-In order to test the code we performed simulations using this illumination distribution and compared it with the analytical result. We started with a fixed superficial concentration  C=$2 \times 10^{-4}$ molecules nm$^2$ to have a relative fast run and we changed the different parameters of the simulation, such as the number of spatial configurations to average and the total simulation time $T_{\mbox{max}}$. The comparison with the analytical curves can be seen in figure \ref{fg:sim_test}. In both cases the simulation agrees well with the analytical result and for longer simulation time or higher number of configurations, the error becomes smaller.
+In order to test the code we performed simulations using this illumination distribution and compared it with the analytical result. We started with a fixed superficial concentration  C=$2 \times 10^{-4}$ molecules nm$^2$ to have a relative fast run and we changed the different parameters of the simulation, such as the number of spatial configurations to average and the total simulation time $T_{\mbox{max}}$. The comparison with the analytical curves can be seen in figure XXXsim testXXX. In both cases the simulation agrees well with the analytical result and for longer simulation time or higher number of configurations, the error becomes smaller.
 
 
  \begin{figure}
- \centering
  \includegraphics[width=\textwidth]{Theta_results}%
  \caption{\textbf{Test of simulation parameters and code validation} 
 (a) Different total simulation times. Top: simulated and analytical curves. Bottom: relative error in the simulation.
 (b) Different number of averaged spatial configurations. Top: simulated and analytical curves for different total simulation times $T_{\mbox{max}}$. Bottom: relative error in the simulation.
 \label{fg:Theta_results}}
- \end{figure}
+\end{figure}
 
 
-The next step was to test the simulation for different physical parameters such as the concentration of molecules and the intensity in the beam. The results for three different concentrations and intensities can be found in figure \ref{fg:phy_test}. The results again agree with the analytical curves and it can be noted that the larger the number of photons generated in the simulation the better correspondence with the analytical result.
+The next step was to test the simulation for different physical parameters such as the concentration of molecules and the intensity in the beam. The results for three different concentrations and intensities can be found in figure XXXphy testXXX. The results again agree with the analytical curves and it can be noted that the larger the number of photons generated in the simulation the better correspondence with the analytical result.
 
 
- \begin{figure}
- \centering
+\begin{figure}
  \includegraphics[width=\textwidth]{Theta_physical_test}%
  \caption{\textbf{Test of physical parameters and code validation} 
 (a) Different concentrations. Top: simulated and analytical curves. Bottom: relative error in the simulation.
-(b) Different intensities. Top: simulated and analytical curves. Bottom: relative error in the simulation.
-\label{fg:Theta_physical_test}}
- \end{figure}
+(b) Different intensities. Top: simulated and analytical curves. Bottom: relative error in the simulation.}
+\label{fg:Theta_physical_test}
+\end{figure}

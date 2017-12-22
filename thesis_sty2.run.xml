@@ -53,6 +53,10 @@
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex_.def</file>
+      <file>phys_custom.bbx</file>
+      <file>numeric-comp.bbx</file>
+      <file>numeric.bbx</file>
+      <file>standard.bbx</file>
       <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>british.lbx</file>
@@ -78,7 +82,7 @@
       <file>thesis_sty2.bcf</file>
     </requires>
     <requires type="editable">
-      <file>chapters/c2_bilayer_efcs/efcs.bib</file>
+      <file>bibliography.bib</file>
     </requires>
   </external>
 </requests>

@@ -1,133 +1,23 @@
 \chapter{Binned and binfree analysis of Fluorescence Enhancement by gold nanorod on a 2D layer}
 \label{chapter:binfree}
-\graphicspath{{./chapters/c3_binfree/img/}}
+\graphicspath{{./chapters/c3_binfree/figures/}}
 %============================ MAIN ================================
 
 
 \begin{abstract}
 Gold nanorods are extensively used for single-molecule fluorescence enhancement applications since they are easy to synthesize, bio-compatible and provide high light confinement at their nanometer-sized tips. We report on a novel way to extract the enhancement factor in a single-molecule enhancement experiment using the interphoton delay distribution, avoiding the arbitrary binning of the fluorescence intensity time traces. We present experimental results on the bi-dimensional case, experimentally achieved using a lipid bi-layer to support the diffusion of fluorophores.  We support our findings with a theoretical model to calculate the interphoton delay distribution of (nearly) immobilized emitters from the intensity profile.
 \end{abstract}
-\newpage
 
-% insert suggested PACS numbers in braces on next line
-% \pacs{33.50.Dq,78.67.Qa}
-% insert suggested keywords - APS authors don't need to do this
-% \keywords{Fluorescence enhancement, TCSPC, Gold-Nanorods}
-
-%\maketitle must follow title, authors, abstract, \pacs, and \keywords
-% \maketitle
-
-
-
-%%% some explanations
-% body of paper here - Use proper section commands
-% References should be done using the \cite, \ref, and \label commands
-%\section{}
-
-% Put \label in argument of \section for cross-referencing
-%\section{\label{}}
-%\subsection{}
-%\subsubsection{}
-
-% If in two-column mode, this environment will change to single-column
-% format so that long equations can be displayed. Use
-% sparingly.
-%\begin{widetext}
-% put long equation here
-%\end{widetext}
-
-% figures should be put into the text as floats.
-% Use the graphics or graphicx packages (distributed with LaTeX2e)
-% and the \includegraphics macro defined in those packages.
-% See the LaTeX Graphics Companion by Michel Goosens, Sebastian Rahtz,
-% and Frank Mittelbach for instance.
-%
-% Here is an example of the general form of a figure:
-% Fill in the caption in the braces of the \caption{} command. Put the label
-% that you will use with \ref{} command in the braces of the \label{} command.
-% Use the figure* environment if the figure should span across the
-% entire page. There is no need to do explicit centering.
-
-% \begin{figure}
-% \includegraphics{}%
-% \caption{\label{}}
-% \end{figure}
-
-% Surround figure environment with turnpage environment for landscape
-% figure
-% \begin{turnpage}
-% \begin{figure}
-% \includegraphics{}%
-% \caption{\label{}}
-% \end{figure}
-% \end{turnpage}
-
-% tables should appear as floats within the text
-%
-% Here is an example of the general form of a table:
-% Fill in the caption in the braces of the \caption{} command. Put the label
-% that you will use with \ref{} command in the braces of the \label{} command.
-% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
-% \begin{tabular}{} command.
-% The ruledtabular enviroment adds doubled rules to table and sets a
-% reasonable default table settings.
-% Use the table* environment to get a full-width table in two-column
-% Add \usepackage{longtable} and the longtable (or longtable*}
-% environment for nicely formatted long tables. Or use the the [H]
-% placement option to break a long table (with less control than 
-% in longtable).
-% \begin{table}%[H] add [H] placement to break table across pages
-% \caption{\label{}}
-% \begin{ruledtabular}
-% \begin{tabular}{}
-% Lines of table here ending with \\
-% \end{tabular}
-% \end{ruledtabular}
-% \end{table}
-
-% Surround table environment with turnpage environment for landscape
-% table
-% \begin{turnpage}
-% \begin{table}
-% \caption{\label{}}
-% \begin{ruledtabular}
-% \begin{tabular}{}
-% \end{tabular}
-% \end{ruledtabular}
-% \end{table}
-% \end{turnpage}
-
-
-\section{Introduction\label{sec:intro}}
-
-%Here goes the intro. IDEAS:
-%
-%- characterization of fluorescence time traces with intensity, blinking, correlation function, histograms of photon counts.
-%
-%- try to get rid of binning because it introduces an additional arbitrary parameter. Histograms of interphoton times (macrotime delays), similar to histograms of microtime delays used for lifetime determination; more characterization methods, but here focus on interphoton delay histograms
-%
-%- Here we show that this histogram relates to a distribution of intensities of single molecule fluorescence. Therefore it encodes information about the intensity distribution inside the volume accessible to diffusion. We will assume diffusion uniform in accessible volume.
-%
-%- Importance for near-field distribution in enhanced fluorescence around plasmonic structures. 
-%Will be illustrated here with enhancement of single-molecule fluorescence by gold nanorods with different geometries. 
-
+\section{Introduction}
 Single quantum emitters such as fluorophores, quantum dots, color centers 
 and fluorescent proteins have become powerful tools for modern science 
 since they provide nanometer-sized probes that can be used to extract 
-information about the local environment \cite{moerner1999illuminating, kulzer2010single}, 
-oxidation state of molecules\cite{zhang2017gold} and proximity of other 
-emitters\cite{stein2011single} combined with the non-invasiveness of optical methods. 
-%With the blossom of superlocalization and superresolution techniques, optical microscopy commonly pushed to sub-diffraction-limited scales \cite{klar2000fluorescence,betzig2006imaging}. Recent developments have achieved resolutions comparable with molecular sizes \cite{balzarotti2017nanometer,Weisenburger2017}, opening up the possibility of mapping nanoscale properties unprecedented resolution while keeping the advantages of optical microscopy.
+information about the local environment\cite{moerner1999illuminating, kulzer2010single},oxidation state of molecules\cite{zhang2017gold} and proximity of other emitters\cite{stein2011single} combined with the non-invasiveness of optical methods.
 
-%REMIDNER: WRITE the next two paragraphs, ignore now: % this needs to be replaced with the real text
-%
-%-Importance of single-molecule studies: get full distributions, avoid synchronization, detection of rare events and dynamical heterogeneity in biological process. 
-
-%-Fluorescence enhancement by plasmonic structures paragraph: physical origins, dependence, mention emission and excitation. limitations. motivate the quantification of enhancement in different structures.
-Fluorescence enhancement by plasmonic nanostructures has been successfully 
+ Fluorescence enhancement by plasmonic nanostructures has been successfully 
 used in the past to increase the signal from weak 
-emitters\cite{kinkhabwala2009large, yuan2013thousandfold, khatua2014resonant} even in 
-living cells \cite{vanzanten2010imaging}. In a nutshell, fluorescence enhancement
+emitters\cite{kinkhabwala2009large,yuan2013thousandfold,khatua2014resonant} even in 
+living cells\cite{vanzanten2010imaging}. In a nutshell, fluorescence enhancement
 by metallic nanoparticles refers to an increase in the detected 
 photon rate from a molecule when it is placed in the vicinity of the nanoparticle.
 It relies on the surface plasmon resonance of the nanoparticle, which is accessible
@@ -136,7 +26,7 @@ the nanoparticles can concentrate optical fields in tiny volumes,
 the so-called ''hot-spots'', providing a sub-diffraction 
 working volume that can be exploited to perform, for example, 
 fluorescence correlation spectroscopy (FCS) at micro molar 
-concentrations\cite{estrada2008,manzo2011nanoscale,punj2013gold,khatua2014enhancedfluorescence}.
+concentrations\cite{estrada200810000,manzo2011nanoscale,punj2013gold,khatua2014enhancedfluorescence}.
 It can also extend the powerful tools of single-molecule spectroscopy to 
 weakly emitting species.
 
@@ -150,23 +40,14 @@ The nanotime is usually used to obtain the lifetime histogram, which can be used
 gain insight into the underlying mechanism for the emission. For example, 
 in the case of fluorescence, the radiative and non-radiative rates can be accessed experimentally with a 
 measurement of the lifetime and the quantum-yield \cite{lakowicz2007principles}.
-%Figure \ref{fg:tcspc} shows an time representation for such an experimental configuration. 
 The output of a TTTR experiment can be represented as a classical function of time \cite{Lippitz2005}:
-
 \begin{equation}
 I(t) = \sum_i \delta( t-t_i)
 \label{eq:intensity_TCSPC}
 \end{equation}
 where $\delta(t)$ is the usual definition for the Dirac's delta function and $t_i$ is the absolute arrival time
 for each detected photon in the experiment (measured relative to the start of the experiment, the macrotime). 
-We shall call this function \textit{unbinned time trace}. 
- 
-
- %\begin{figure}
- %\includegraphics[width=\textwidth]{img/TCSPC_scheme.pdf}%
- %\caption{\textbf{Time-correlated single-photon counting detection scheme.} Typical configuration for a time-tagged time-resolved photoluminescence experiment. The exciting source is a pulsed laser with MHz repetition rate and both the time tag $T$ since the start of the experiment and the TCSPC time $t$ are recorded and saved. The former can be used to calculate the interphoton delay distribution and the latter to generate a lifetime histogram to obtain, for example, the lifetime of a fluorescent molecule. Modified from \cite{Wahl_picoquant}.
-%\label{fg:tcspc}}
- %\end{figure}
+We shall call this function \textit{unbinned time trace}.
 
 In spite of the high temporal resolution provided by such experiments, 
 the usual way to characterize the emission of quantum emitters is to 
@@ -195,7 +76,6 @@ to diffuser. We will illustrate this point with single-molecule fluorescence
 in a bi-dimensional case both with Gaussian beam shape and in the case of 
 enhanced fluorescence using gold nanorods.
 
-
 \section{Theoretical framework}
 
 We seek to relate the interphoton delay distribution in a fluorescence experiment with 
@@ -223,7 +103,6 @@ intensity variations are much slower than the interphoton detection events.
 This will give rise to the interphoton delay distribution 
 $p(\tau)=\int_0^\infty w e^{-w\tau}Q(w)\mbox{d}w$ that corresponds to 
 averaging over all possible intensities (rates) $w$ and can be rewritten as
-
 \begin{equation}
 p(\tau)=-\frac{\mbox{d}}{\mbox{d}\tau}\mathscr{L}\{Q(w)\}(\tau)\,,
 \label{eq:interphoton_delay_distribution}
@@ -233,8 +112,7 @@ Laplace transform of the function $Q(w)$ \footnote{Note that the Laplace transfo
 is usually applied to time-dependent functions, giving rate-dependent functions. 
 Here, we apply it to a function of the rate to obtain a time-dependent transform.}. 
 If we would like to obtain the interphoton delay distribution 
-corresponding to an addition of two sources with intensity distributions $P(w)$ 
-and $Q(w)$ we can use the total intensity $T(w)$ that can be calculated as the sum 
+corresponding to an addition of two sources with intensity distributions $P(w)$ and $Q(w)$ we can use the total intensity $T(w)$ that can be calculated as the sum 
 of a combined probability of soruce 1 emitting at a rate $x$ and sorce 2 a 
 $(w-x)$, i.e., by convoluting the two intensity functions: $T(w)=\int{P(x)Q(w-x)\mbox{d}x}$. 
 Using the convolution theorem we can write the Laplace transform of the intensity distribution 
@@ -247,7 +125,7 @@ The detected intensity will generally be a product of the position-dependent loc
 excitation intensity and of a position-dependent collection efficiency and the 
 molecular parameters involved in the emission process (absorption cross section, 
 fluorescence quantum yield, etc. ). We write the product of these factors as a 
-position-dependent intensity function $I(\ve{r})$. 
+position-dependent intensity function $I(\ve{r})$.
 
 At this point we make two important approximations to continue. The first one is 
 to neglect rotational diffusion of the molecules, which is a good approximation 
@@ -288,7 +166,7 @@ for the Laplace transform, we can write the Laplace transform for the $N+1$ diff
 \end{equation}
 from which we deduce 
 $\mathscr{L}\{Q_{N}(w)\}(\tau)=\left[\mathscr{L}\{Q_{1}(w)\}(\tau)\right]^N $. 
-Now we apply the statistical method of Stoneham \cite{STONEHAM1969, Fleury1995} 
+Now we apply the statistical method of Stoneham \cite{stoneham1969, Fleury1995} 
 by letting number and volume tend to infinity keeping the ratio constant to match 
 the concentration $C$ to approximate
 \begin{equation}
@@ -315,11 +193,6 @@ freely-diffusing objects around an illumination profile $I(\ve{r})$.
 \subsection{Photons per burst distribution}
 
 Still need to revisit the theory and contrast with the experimental results.
-
-%\subsection{Diffusion case}
-%
-%What happens if we add diffusion. Add qualitatively arguments of how the distribution is changed. mention the very fast
-%diffusion limit: it is a single exp. In the middle we have to say how we expect it to look.
 
 \section{Two \textit{constant} different intensities}
 
@@ -372,7 +245,7 @@ other molecules in the detection volume.
 This approach allows to put a single dye in a well-defined position in the 
 near-field of the nanorod for a exponentially distributed time whose 
 mean value can be selected with the length length of the DNA and the 
-environment conditions \cite{}. Since the dye molecule is fixed at a 
+environment conditions. Since the dye molecule is fixed at a 
 certain point in space, with a fixed exciting intensity, we expect a 
 fixed detected intensity. The main advantage of this experimental 
 approach is that the hybridization is transient and after some time 
@@ -383,7 +256,7 @@ in space can be probed several times with different single molecules.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.95\textwidth]{transient_single_site_results}
+\includegraphics[width=0.95\textwidth]{transient_single_site_results}%
 \caption{\textbf{Fluorescence enhancement of single Cy5 molecules with transient binding.}
 (a) Binned intensity histogram. (b) Binned fluorescence time trace (bin time = 1 ms). 
 From these two plots, two intensity levels are clearly recognized: the high 
@@ -396,11 +269,9 @@ shown in the inset on the right).
 from the TTTR measurements (empty dots) and a biexponential fit, one 
 for each intensity level. The retrieved intensities from this fit are 
 shown in green dashed lines in (a) and (b), which coincide with the 
-high and low levels.
-\label{fg:transient_results}}
- \end{figure}
-
-
+high and low levels.}
+\label{fg:transient_results}
+\end{figure}
 
 Figure \ref{fg:transient_results} shows the experimental results
  on our two-intensity system. On plot (a), at the top left, we 
@@ -430,7 +301,6 @@ change dramatically with the binning time.
 The results in this simple case show how useful this type of analysis 
 can be, since we were able to extract information from our TTTR data 
 without introducing any arbitrary parameter.
-
 
 \section{Gaussian beam in two dimensions\label{sec:gaussian2d}}
 
@@ -544,7 +414,6 @@ exponential-like interphoton delay distribution we need to completely fill with 
 
 
 \begin{figure}
-\centering
 \includegraphics[width=0.9\textwidth]{enhancement_model}%
 \caption{\textbf{Simple model for plasmonic enhancement  in two dimensions.} (a) Radial intensity distributions for Gaussian (blue solid line, multiplied by 100 for display), $\alpha=3$ (red dashed line) and $\alpha=6$ (yellow dotted line). 
 For all the cases the intensity is $W_0=1.5\times10^4$ and the enhancement factor is $E=1000$.
@@ -568,14 +437,6 @@ binned intensity histogram slope
 
 interphoton times
 
-
- %\begin{figure}
- %\includegraphics[width=0.8\textwidth]{img/Enhancement_interphoton_1.pdf}%
- %\caption{\textbf{Gold nanorod for fluorescence enhancement in bidimensional diffusion.} .
-%\label{fg:enhancement}}
- %\end{figure}
-
-
 \section{Conclusions}
 
 In this paper we characterized single-molecule fluorescence traces 
@@ -589,5 +450,6 @@ allows the calculation of interphoton delay distribution from the spatial intens
 distribution.With this model we could reproduce the main features of molecules diffusing 
 in a lipid bi-layer when they are illuminated with a Gaussian beam.
 %=========== Supporting info ========
-\newpage
-\include{{./chapters/c3_binfree/si_binfree}}
+% \newpage
+\include{chapters/c3_binfree/si_binfree}
+% \references{chapters/c3_binfree/biblio}
