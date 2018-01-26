@@ -30,3 +30,5 @@ clean:
 
 gen-bibliography:
 	bibtool -x thesis.aux -o bib_generated.bib
+sort-bib-year:
+	bibtool -s -- 'sort.format={%d(year)}' bibliography.bib -o bibliography.bib
