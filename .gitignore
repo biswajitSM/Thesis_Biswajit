@@ -23,5 +23,6 @@
 #Project files
 *.sublime-project
 *.sublime-workspace
+*.code-workspace
 #=================KEEP these files=======================
 # !thesis.pdf

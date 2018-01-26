@@ -1,0 +1,54 @@
+\begin{titlepage}
+
+\begin{center}
+
+\vspace*{2\bigskipamount}
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\LARGE\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \bigskip
+    \titlefont\titleshape\Large\@subtitle
+\fi
+\makeatother}
+
+%% Uncomment the following lines to insert a vertically centered picture into
+%% the title page.
+%\vfill
+%\includegraphics{title}
+\vfill
+
+%% Apart from the names and dates, the following text is dictated by the
+%% promotieregelement.
+
+% {\Large\titlefont\bfseries Proefschrift}
+
+\bigskip
+\bigskip
+
+\bigskip
+\bigskip
+
+%% Print the full name of the author.
+\makeatletter
+{\Large\titlefont\bfseries\@firstname\ {\titleshape\@lastname}}
+\makeatother
+
+
+
+
+%% Extra whitespace at the bottom.
+\vspace*{2\bigskipamount}
+
+\end{center}
+
+\clearpage
+\thispagestyle{empty}
+
+\end{titlepage}
+
