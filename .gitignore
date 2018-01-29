@@ -2,6 +2,7 @@
 *.pdf
 *.eps
 *.png
+/.*_STAMP
 #TEX outputs
 *.out
 *.aux
