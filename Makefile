@@ -5,6 +5,7 @@ all: read
 	$(MAKE) .svgtoeps_STAMP
 	@touch .pdf_STAMP
 	latexmk -pdfdvi -interaction=nonstopmode $<
+	latexmk -pdfdvi -interaction=nonstopmode $<
 	@touch .pdf_STAMP
 
 .pdf_STAMP:

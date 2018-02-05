@@ -1,8 +1,7 @@
-\documentclass[]{dissertation}% [print] for print mode
+\documentclass[print]{dissertation}% [print] for print mode
 \usepackage{microtype}
 \usepackage{csquotes}
 \usepackage{courier}
-\usepackage[utf8]{inputenc}
 % FIGURES
 % \usepackage{xr}
 \usepackage{hyperref}
@@ -44,35 +43,35 @@ multi-part-units = single]{siunitx}
 \usepackage{verbatim}   % useful for program listings
 \usepackage{bm}% bold math
 \usepackage{color}      % use if color is used in text
-
 \usepackage{upgreek}
-
 \newcommand{\ve}[1]{{\mathbf{#1}}}
+
 %%%%%%%%%%%%%%%%%%% MAIN PART %%%%%%%%%%%%%%
 \begin{document}
 \title[]{Fluorescence of Single Copper Proteins: Dynamic Disorder and Enhancement by a Gold Nanorod}
 \author{Biswajit}{Pradhan}
-\input{frontback/title_page}
+% \input{frontback/title_page}
 %\input{preface}
-\tableofcontents
+% \tableofcontents
 \mainmatter
 %========== CHAPTERS ================
-\thumbtrue
-\input{chapters/c1_intro/intro}
-\input{chapters/c2_bilayer_efcs/bilayer_efcs}
-\input{chapters/c5_transient_binding/transient_binding}
-\input{chapters/c3_binfree/binfree}
-\input{chapters/c4_azurin_sm/azurin}
+% \thumbtrue
+% \input{chapters/c1_intro/intro}
+% \input{chapters/c2_bilayer_efcs/bilayer_efcs}
+% \input{chapters/c5_transient_binding/transient_binding}
+% \input{chapters/c3_binfree/binfree}
+% \input{chapters/c4_azurin_sm/azurin}
 %======== BIBLIOGRAPHY ===========
-\newpage
-\thumbfalse
-\chapter*{Bibliography}
-\addcontentsline{toc}{chapter}{Bibliography}
-\references{bibliography}
+% \thumbfalse
+% \chapter*{Bibliography}
+% \addcontentsline{toc}{chapter}{Bibliography}
+% \references{bibliography}
 %======== Conclusion and summary =========
-\include{chapters/conclusion}
-%=========Apendix===============
-% \appendix
+ \input{frontback/conclusion}
+% \input{frontback/summary}
+% \input{frontback/stellingen}
+% \input{frontback/samenvatting}
+% \input{frontback/publications}
+% \input{frontback/cv}
 
-%% Turn off thumb indices for unnumbered chapters.
 \end{document}

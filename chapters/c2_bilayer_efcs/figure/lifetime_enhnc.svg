@@ -398,15 +398,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.5810715"
-     inkscape:cx="141.73228"
+     inkscape:cx="138.89452"
      inkscape:cy="99.212597"
      inkscape:document-units="px"
      inkscape:current-layer="g4047"
      showgrid="false"
      inkscape:window-width="1916"
-     inkscape:window-height="1047"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="1027"
+     inkscape:window-x="2"
+     inkscape:window-y="24"
      inkscape:window-maximized="0"
      units="cm" />
   <metadata
@@ -417,7 +417,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -771,12 +771,12 @@
            transform="matrix(0,-1,1,0,35.9333,301.01202)">
           <text
              id="text4162"
-             style="stroke:none;font-size:27.0933332px;"
+             style="font-size:27.09333229px;stroke:none"
              y="-6.6016002"
              xml:space="preserve"
-             x="-137.5529"><tspan
-               style="font-size:27.0933332px;"
-               id="tspan5399">Normalized counts</tspan></text>
+             x="-23.760941"><tspan
+               style="font-size:27.09333229px"
+               id="tspan5399">log(#)</tspan></text>
         </g>
         <g
            id="g4164"

@@ -66,7 +66,7 @@
     \RequirePackage{fourier}
     %% The style for titles is small caps.
     \def\titlefont{\rmfamily}
-    \def\titleshape{\scshape}
+    \def\titleshape{\upshape} % small caps (\scshape), \upshape, \itshape.
     \def\titlestyle{\titlefont\titleshape\bfseries}
     \if@print
         \def\headerstyle{\titlefont\titleshape\bfseries}
@@ -305,8 +305,8 @@
 \fancypagestyle{mainmatter}{%
     \fancyhf{}
     %% Page numbers on the top left and top right.
-    \fancyhead[LE]{\cropmarks\lthumb\titlefont\thepage}
-    \fancyhead[RO]{\cropmarks\rthumb\titlefont\thepage}
+    \fancyfoot[LE]{\cropmarks\lthumb\titlefont\thepage}
+    \fancyfoot[RO]{\cropmarks\rthumb\titlefont\thepage}
     %% Chapter name on the left (even) page.
     \fancyhead[RE]{\titlefont\titleshape\nouppercase{\leftmark}}
     %% Section name on the right (odd) page.
@@ -368,7 +368,7 @@
 %% Section titles start with the number in bold, followed by the name printed
 %% in the title color.
 \titleformat{\section}
-    {\Large\headerstyle}
+    {\large\headerstyle}
     {\bfseries\thesection.\ }
     {0pt}
     {\color{title}}
