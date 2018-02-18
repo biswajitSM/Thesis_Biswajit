@@ -15,7 +15,7 @@ read: thesis.pdf
 	evince thesis.pdf &
 
 svgtoeps:
-	rm .svgtoeps_STAMP
+	rm -f .svgtoeps_STAMP
 	$(MAKE) .svgtoeps_STAMP
 
 .svgtoeps_STAMP:
