@@ -2,10 +2,13 @@
 all: read
 
 %.pdf: %.tex .pdf_STAMP
-	$(MAKE) .svgtoeps_STAMP
+	$(MAKE) .svgtopdf_STAMP
 	@touch .pdf_STAMP
-	latexmk -pdfdvi -interaction=nonstopmode $<
-	latexmk -pdfdvi -interaction=nonstopmode $<
+	pdflatex -interaction=nonstopmode thesis.tex
+	bibtex thesis
+	pdflatex -interaction=nonstopmode thesis.tex
+	pdflatex -interaction=nonstopmode thesis.tex
+	evince thesis.pdf &
 	@touch .pdf_STAMP
 
 .pdf_STAMP:
@@ -20,6 +23,12 @@ svgtoeps:
 
 .svgtoeps_STAMP:
 	python all_svg2eps.py && touch .svgtoeps_STAMP
+
+svgtopdf:
+	rm .svgtopdf_STAMP
+	$(MAKE) .svgtopdf_STAMP
+.svgtopdf_STAMP:
+	python all_svg2pdf.py && touch .svgtopdf_STAMP
 
 #needs bibtool installations
 bib-combine:

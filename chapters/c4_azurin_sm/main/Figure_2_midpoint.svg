@@ -6073,9 +6073,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1652929"
-     inkscape:cx="120.67434"
-     inkscape:cy="113.91191"
+     inkscape:zoom="3.305763"
+     inkscape:cx="266.35303"
+     inkscape:cy="106.29921"
      inkscape:document-units="px"
      inkscape:current-layer="g3363"
      showgrid="false"
@@ -7614,13 +7614,12 @@
                  id="text312"
                  style="stroke-linecap:butt;stroke-linejoin:round"
                  y="17.600002"
-                 x="9.6000004">t<tspan
-   style="font-size:51.99999809%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan6883">on</tspan>
-
+                 x="17.600002">t<tspan
+   style="font-size:8.0000001px;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan6883">b</tspan>
 /t<tspan
-   style="font-size:51.99999809%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan6881">off</tspan>
+   style="font-size:8.0000001px;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan6881">d</tspan>
 </text>
             </g>
           </g>
@@ -8462,6 +8461,32 @@
            style="font-size:31.1576004px;stroke-linecap:butt;stroke-linejoin:round"
            x="-43.517406"
            y="1021.4963">100</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:99.70432281px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="95.725212"
+         y="1046.3975"
+         id="text5155"
+         sodipodi:linespacing="125%"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan5157"
+           style="font-size:37.38912201px;stroke-linecap:butt;stroke-linejoin:round"
+           x="95.725212"
+           y="1046.3975">a</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:99.70432281px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="752.19464"
+         y="1045.249"
+         id="text5155-3"
+         sodipodi:linespacing="125%"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan5157-6"
+           style="font-size:37.38912201px;stroke-linecap:butt;stroke-linejoin:round"
+           x="752.19464"
+           y="1045.249">a</tspan></text>
     </g>
   </g>
 </svg>

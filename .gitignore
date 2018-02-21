@@ -27,3 +27,5 @@
 *.code-workspace
 #=================KEEP these files=======================
 # !thesis.pdf
+!leiden.pdf
+!casimir.png

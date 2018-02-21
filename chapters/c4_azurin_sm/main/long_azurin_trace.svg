@@ -25832,15 +25832,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4659429"
-     inkscape:cx="292.99524"
+     inkscape:cx="294.35955"
      inkscape:cy="316.86092"
      inkscape:document-units="px"
      inkscape:current-layer="g34274"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1047"
+     inkscape:window-height="1056"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      units="cm">
     <inkscape:grid
@@ -25856,7 +25856,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -26043,7 +26043,14 @@
                          transform="matrix(0,-1,1,0,0,0)"
                          x="-229.8365"
                          y="550.98602"
-                         id="text670">ton_av/s</text>
+                         id="text670">
+                        <tspan
+                           style="font-size:9.99999966px"
+                           id="tspan11235">t<tspan
+   style="font-size:7.99999972px;baseline-shift:sub"
+   id="tspan11251">b</tspan>
+_av/s</tspan>
+                      </text>
                     </g>
                   </g>
                   <g
@@ -26127,8 +26134,8 @@
                          y="232.45683"
                          id="text696">
                         <tspan
-                           style="font-size:9.99999966px"
-                           id="tspan16334">On times</tspan>
+                           style="font-size:10px"
+                           id="tspan16334">brighttimes</tspan>
                       </text>
                     </g>
                   </g>
@@ -26284,7 +26291,14 @@
                          transform="matrix(0,-1,1,0,0,0)"
                          x="-343.28348"
                          y="551.30157"
-                         id="text1491">toff_av/s</text>
+                         id="text1491">
+                        <tspan
+                           style="font-size:10px"
+                           id="tspan11237">t<tspan
+   style="font-size:7.99999972px;baseline-shift:sub"
+   id="tspan11247">d</tspan>
+_av/s</tspan>
+                      </text>
                     </g>
                   </g>
                   <g
@@ -26368,8 +26382,8 @@
                          y="345.90378"
                          id="text1517">
                         <tspan
-                           style="font-size:9.99999966px"
-                           id="tspan16336">Off times</tspan>
+                           style="font-size:10px"
+                           id="tspan16336">darktimes</tspan>
                       </text>
                     </g>
                   </g>
@@ -26765,10 +26779,18 @@
                          transform="matrix(0,-1,1,0,0,0)"
                          x="-456.73044"
                          y="551.52661"
-                         id="text1750">E<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;font-family:sans-serif;-inkscape-font-specification:sans-serif;baseline-shift:sub"
-   id="tspan13267">0</tspan>
-/mV</text>
+                         id="text1750">
+                        <tspan
+                           style="font-size:9.99999966px"
+                           id="tspan11239">E</tspan>
+                        <tspan
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999972px;font-family:sans-serif;-inkscape-font-specification:sans-serif;baseline-shift:sub"
+                           id="tspan13267">0</tspan>
+                        <tspan
+                           style="font-size:9.99999966px"
+                           id="tspan11241">
+/mV</tspan>
+                      </text>
                     </g>
                   </g>
                   <g

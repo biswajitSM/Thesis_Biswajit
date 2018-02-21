@@ -16,7 +16,7 @@
    width="18cm"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="step_dynamic_trace.svg"
+   sodipodi:docname="dynamic_trace_steps.svg"
    inkscape:export-filename="/home/biswajit/Research/Reports_ppt/reports/AzurinSM-MS4/Azurin_SM_repo/temp/Point_15_75mV_S106.png"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600">
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,14 +42,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1047"
+     inkscape:window-height="1056"
      id="namedview2786"
      showgrid="true"
      inkscape:zoom="1.5090588"
-     inkscape:cx="318.89764"
+     inkscape:cx="320.22297"
      inkscape:cy="301.1811"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:document-units="cm"
@@ -12942,8 +12942,14 @@
              style="font-style:normal;font-weight:400;font-size:8.00000095px;font-family:'DejaVu Sans';text-anchor:middle;fill:#0000ff;stroke-linecap:butt;stroke-linejoin:round"
              transform="matrix(0,-1,1,0,0,0)"
              x="-229.83652"
-             y="554.14856"
-             id="text673">ton_av/s</text>
+             y="558.94849"
+             id="text673"><tspan
+   style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan6589">t</tspan>
+b<tspan
+   style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan6591">_av/s</tspan>
+</text>
         </g>
       </g>
       <g
@@ -12994,13 +13000,14 @@
       </g>
       <g
          id="legend_1"
-         style="stroke-linecap:butt;stroke-linejoin:round">
+         style="stroke-linecap:butt;stroke-linejoin:round"
+         transform="translate(-36.579095,-16.964218)">
         <g
            id="patch_122"
            style="stroke-linecap:butt;stroke-linejoin:round">
           <path
-             d="m 448.14375,238.81465 63.25625,0 q 2,0 2,-2 l 0,-13.95625 q 0,-2 -2,-2 l -63.25625,0 q -2,0 -2,2 l 0,13.95625 q 0,2 2,2 z"
-             style="opacity:0.8;fill:#ffffff;stroke:#cccccc;stroke-linecap:butt;stroke-linejoin:miter"
+             d="m 448.83739,238.81465 85.19477,0 q 2.69364,0 2.69364,-2 l 0,-13.95625 q 0,-2 -2.69364,-2 l -85.19477,0 q -2.69364,0 -2.69364,2 l 0,13.95625 q 0,2 2.69364,2 z"
+             style="opacity:0.8;fill:#ffffff;stroke:#cccccc;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
              id="path692"
              inkscape:connector-curvature="0" />
         </g>
@@ -13021,9 +13028,9 @@
            style="stroke-linecap:butt;stroke-linejoin:round">
           <text
              style="font-style:normal;font-weight:400;font-size:8.00000095px;font-family:'DejaVu Sans';text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
-             x="478.14374"
+             x="476.54373"
              y="232.45683"
-             id="text699">On_av</text>
+             id="text699">bright-time_av</text>
         </g>
       </g>
     </g>
@@ -13149,7 +13156,13 @@
              transform="matrix(0,-1,1,0,209.61808,896.18504)"
              x="552.90155"
              y="343.28348"
-             id="text1197">toff_av/s</text>
+             id="text1197"><tspan
+   style="font-size:12.00000114px"
+   id="tspan6587">t</tspan>
+d<tspan
+   style="font-size:12.00000114px"
+   id="tspan6593">_av/s</tspan>
+</text>
         </g>
       </g>
       <g
@@ -13200,13 +13213,14 @@
       </g>
       <g
          id="legend_2"
-         style="stroke-linecap:butt;stroke-linejoin:round">
+         style="stroke-linecap:butt;stroke-linejoin:round"
+         transform="translate(-43.200005,-32.000004)">
         <g
            id="patch_233"
            style="stroke-linecap:butt;stroke-linejoin:round">
           <path
-             d="m 448.14375,352.2616 63.25625,0 q 2,0 2,-2 l 0,-13.95625 q 0,-2 -2,-2 l -63.25625,0 q -2,0 -2,2 l 0,13.95625 q 0,2 2,2 z"
-             style="opacity:0.8;fill:#ffffff;stroke:#cccccc;stroke-linecap:butt;stroke-linejoin:miter"
+             d="m 448.71129,352.2616 81.20595,0 q 2.56753,0 2.56753,-2 l 0,-13.95625 q 0,-2 -2.56753,-2 l -81.20595,0 q -2.56752,0 -2.56752,2 l 0,13.95625 q 0,2 2.56752,2 z"
+             style="opacity:0.8;fill:#ffffff;stroke:#cccccc;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
              id="path1216"
              inkscape:connector-curvature="0" />
         </g>
@@ -13229,7 +13243,7 @@
              style="font-style:normal;font-weight:400;font-size:8.00000095px;font-family:'DejaVu Sans';text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
              x="478.14374"
              y="345.90378"
-             id="text1223">On_av</text>
+             id="text1223">dark-time_av</text>
         </g>
       </g>
     </g>
@@ -13515,7 +13529,11 @@
              style="font-style:normal;font-weight:400;font-size:8.00000095px;font-family:'DejaVu Sans';text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"
              x="353.42609"
              y="532.27655"
-             id="text1491">time/s</text>
+             id="text1491">
+            <tspan
+               style="font-size:12.00000114px"
+               id="tspan6599">time/s</tspan>
+          </text>
         </g>
       </g>
       <g
@@ -13624,7 +13642,11 @@
              transform="matrix(0,-1,1,0,0,0)"
              x="-458.33041"
              y="553.12665"
-             id="text1525">E_0/mV</text>
+             id="text1525">
+            <tspan
+               style="font-size:12.00000114px"
+               id="tspan6595">E_0/mV</tspan>
+          </text>
         </g>
       </g>
       <g
@@ -14111,7 +14133,11 @@
              transform="matrix(0,-1,1,0,-390.81012,522.65075)"
              x="65.920311"
              y="456.73044"
-             id="text1363">#</text>
+             id="text1363">
+            <tspan
+               style="font-size:12.28291871px"
+               id="tspan6601">#</tspan>
+          </text>
         </g>
       </g>
       <g
@@ -16822,4 +16848,88 @@
       </g>
     </g>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="264"
+     y="17.700796"
+     id="text6525"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527"
+       style="stroke-linecap:butt;stroke-linejoin:round;font-size:12.00000114px"
+       x="264"
+       y="17.700796">A</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="39.999981"
+     y="123.30081"
+     id="text6525-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527-6"
+       style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+       x="39.999981"
+       y="123.30081">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="264"
+     y="121.70081"
+     id="text6525-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527-5"
+       style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+       x="264"
+       y="121.70081">C</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="27.19998"
+     y="225.70081"
+     id="text6525-35"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527-62"
+       style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+       x="27.19998"
+       y="225.70081">D</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="184"
+     y="225.70081"
+     id="text6525-9"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527-1"
+       style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+       x="184"
+       y="225.70081">E</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="39.999981"
+     y="329.70084"
+     id="text6525-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527-7"
+       style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+       x="39.999981"
+       y="329.70084">F</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32.00000381px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="272"
+     y="329.70084"
+     id="text6525-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan6527-9"
+       style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
+       x="272"
+       y="329.70084">G</tspan></text>
 </svg>

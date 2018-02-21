@@ -85366,15 +85366,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.2014583"
-     inkscape:cx="226.77166"
-     inkscape:cy="88.582677"
+     inkscape:cx="227.39638"
+     inkscape:cy="113.57129"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g20719"
      showgrid="false"
      inkscape:window-width="1918"
-     inkscape:window-height="1043"
+     inkscape:window-height="1027"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="0"
      units="cm">
     <inkscape:grid
@@ -86373,8 +86373,8 @@
              y="257.83118"
              id="text1527-7">
             <tspan
-               style="font-size:11.41240219px"
-               id="tspan24495">On time correlation</tspan>
+               style="font-size:11.41240215px;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan24495">bright time correlation</tspan>
           </text>
         </g>
         <g
@@ -86398,8 +86398,8 @@
              y="272.50928"
              id="text1534-8">
             <tspan
-               style="font-size:11.41240219px"
-               id="tspan24497">Off time correlation</tspan>
+               style="font-size:11.41240215px;stroke-linecap:butt;stroke-linejoin:round"
+               id="tspan24497">dark time correlation</tspan>
           </text>
         </g>
       </g>
