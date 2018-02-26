@@ -163,6 +163,9 @@ Correlation of bright and dark times of  different molecules are shown in Figure
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\textwidth]{Dynamic_corr_many}
+  \makeatletter
+  \renewcommand{\fnum@figure}{\figurename~S\thefigure}
+  \makeatother
   \caption{\textbf{Dynamic correlations.}
   Correlation of bright times and dark times for different molecules.
   Notice the different characteristic decay time for different molecules which can vary from seconds to tens of seconds.
@@ -180,17 +183,17 @@ Correlation of bright and dark times of  different molecules are shown in Figure
   \makeatother
   \caption{\textbf{No correlation dynamics.} Variation of midpoint potential and fwhm with the number of on and off times taken for averaging for the long trace shown in the main text (Figure-\ref{fig:long_azurin_trace}). At around $20~$ events, both $E_0$ and fwhm reaches plateau.
   The averaging of on-time and off-times for correlation and midpoint distribution were done every $20$ events.}
-  \label{fig: N_avgpoints_vs_fwhmwidth}
+  \label{SIfig: N_avgpoints_vs_fwhmwidth}
 \end{figure}
 
-%============on-off 2D histogram=============
+% %============on-off 2D histogram=============
 
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=\textwidth]{Figure_4_on_off_2D_100mV}
-  \makeatletter
-  \renewcommand{\fnum@figure}{\figurename~S\thefigure}
-  \makeatother
-  \caption{\textbf{2D histogram: Cu-Azurin.}Two-dimensional correlation plot of a single azurin at \SI{50}{\mV} of(a) adjacent waiting time for oxidation ($t_{n}~and~t_{n+1}$) (b) two waiting times at a large separation of 100 ($t_{n}~and~t_{n+100}$) (c) The difference two dimensional histogram of (a) and (b).}
-  \label{SIfig:onoff2D}
-\end{figure}
+% \begin{figure}[ht]
+%   \centering
+%   \includegraphics[width=\textwidth]{Figure_4_on_off_2D_100mV}
+%   \makeatletter
+%   \renewcommand{\fnum@figure}{\figurename~S\thefigure}
+%   \makeatother
+%   \caption{\textbf{2D histogram: Cu-Azurin.}Two-dimensional correlation plot of a single azurin at \SI{50}{\mV} of(a) adjacent waiting time for oxidation ($t_{n}~and~t_{n+1}$) (b) two waiting times at a large separation of 100 ($t_{n}~and~t_{n+100}$) (c) The difference two dimensional histogram of (a) and (b).}
+%   \label{SIfig:onoff2D}
+% \end{figure}
