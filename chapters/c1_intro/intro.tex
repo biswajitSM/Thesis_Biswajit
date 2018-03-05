@@ -9,17 +9,23 @@
 % =============== MAIN =============
 \section{Fluorescence}
 The absorption and subsequent emission of light by materials is called fluorescence.
-The term fluorescence was named by \textit{George Gabriel Stokes} after he observed the transformation of ultraviolet light into visible light in the mineral fluorite.\cite{Stokes1852} Fluorescence was later observed in organic molecules, and this is the main subject of this work.
+The term fluorescence was named by \textit{George Gabriel Stokes} after he observed the transformation of ultraviolet light into visible light in the mineral fluorite.\cite{Stokes1852} Fluorescence was later observed in organic molecules, and which is the main subject of this work.
 A molecule is promoted to an excited electronic state upon absorbing a resonant photon.
 Each electronic energy level is associated with vibrational and rotational energy levels.
-The excess vibrational energy gained in the excited state is quickly dissipated in the molecular surroundings on picosecond time scales and the molecule ends up in a thermalized excited state, where it remains for the excited-state lifetime. Depending on the spin of the excited state, a transition to the singlet ground state may be spin-allowed and lead to fluorescence emission with a lifetime typically of the order of \SIrange{1}{10}{\ns}. The emitted fluorescent photon has a lower energy than the excitation photon. The associated frequency shift is known as Stokes shift.
-If the excited state is a triplet (spin 1), the transition is spin-forbidden and the lifetime usually lies in the microsecond to seconds range. The associated emission is called  phosphorescence and is commonly observed at longer wavelengths than the fluorescence.
+The excess vibrational energy gained in the excited state is quickly dissipated in the molecular surroundings on picosecond time scales.
+The molecule ends up in a thermalized excited state, where it remains for the excited-state lifetime.
+Depending on the spin of the excited state, a transition to the singlet ground state may be spin-allowed and lead to fluorescence emission with a lifetime typically of the order of \SIrange{1}{10}{\ns}.
+The emitted fluorescent photon has a lower energy than the excitation photon. The associated frequency shift is known as the Stokes shift.
+If the excited state is a triplet (spin 1), the transition is spin-forbidden and the lifetime usually lies in the microsecond to seconds range.
+The associated emission is called  phosphorescence and is commonly observed at longer wavelengths than the fluorescence.
 Absorption and emission processes are often represented graphically in a Jablonski diagram.\cite{RohatgiMukherjee1979k,Lakowicz1999book}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{jablonski}
-	\caption{\textbf{Jablonski Diagram.} Simplified model of the electronic transitions. A molecule is promoted to the excited electronic state by absorption of a photon. Non-radiative relaxation processes bring the molecule to the lowest vibrational states of the lowest excited electronic state from where it can either emit a photon or release excess electronic excitation energy as heat, making a transition to the lower-lying triplet state or singlet ground state.}
+	\caption{\textbf{Jablonski Diagram.}
+	Simplified model of the electronic transitions. A molecule is promoted to the excited electronic state by absorption of a photon.
+	Non-radiative relaxation processes bring the molecule to the lowest vibrational state of the lowest excited electronic state from where it can either emit a photon or release excess electronic excitation energy as heat, making a transition to the lower-lying triplet state or singlet ground state.}
 	\label{fig:jablonski}
 \end{figure}
 
@@ -54,13 +60,13 @@ The following advantages of single-molecule optical microscopy make it an indisp
 	Moerner, Betzig and Hell were awarded the Nobel Prize in Chemistry in 2014 for their contributions towards super-resolution microscopy and single-molecule detection.
 \end{itemize}
 
-Here we discussed some of the more common applications of single-molecule measurements, which can provide a plethora of insights, and its possibilities are only limited by the practitioner's creativity and imagination.
+Some of the more common applications of single-molecule measurements are discussed above. They can provide a plethora of insights and possibilities are only limited by the practitioner's creativity and imagination.
 
 Two major characteristics that are diagnostic of single molecules are their stepwise changes of intensity and anti-bunching.\cite{rasnik2006nonblinking,basch1992photon}
 Molecules in their excited state can cross over to a triplet state, resulting in a loss of emission until the molecule comes back to the ground state, closing the excitation-emission cycle.
 This results in blinking, i.e., digital switching of the fluorescence intensity between two levels (see Figure \ref{fig:SM_characteristics}A).
-A molecule in its triplet state is more reactive because of its unpaired electrons and can react with triplet oxygen in its surroundings, leading to the formation of singlet oxygen, and thereby to bleaching and to the complete loss of fluorescence.
-One-step blinking and bleaching are both used as signature of single molecules.
+A molecule in its triplet state is more reactive because of its unpaired electrons and can react with triplet oxygen in its surrounding, leading to the formation of singlet oxygen, and thereby to bleaching: the complete loss of fluorescence.
+Both one-step blinking and bleaching are used as signature of single molecules.
 Single molecules are quantum systems that emit only one photon at a time. When the photon stream from a single molecule is sent to two detectors via a beam splitter, anti-bunching is observed in the cross-correlation of the signals of the two detectors.
 Such anti-bunching experiments are known as ``Hanbury-Brown Twiss  measurements'' and are currently used to demonstrate that a source emits photons one by one, as a single emitter.\cite{brown1956correlation}
 \begin{figure}
@@ -79,7 +85,7 @@ The conventional way to perform FCS is to collect the signal from \textit{diffus
 The autocorrelation of the intensity signal is given as $G(\tau)=<I(t)I(t+\tau)>/<I(t)>^2$ where I is the intensity, $\tau$ the lag time and $<...>$ represents time averaging.
 The correlation quantifies the probability that the intensity at time $t$ is similar to the intensity at a later time $t+\tau$.
 It provides information on the concentration and the time scale of the fluctuating observable.
-By its very nature, FCS requires fluctuation of the number of diffusing fluorophores in the diffraction-limited volume of \SI{1}{fL}, preferably a number of the order of one molecule per focal volume on average.
+By its very nature, FCS requires fluctuation of the number of diffusing fluorophores in the diffraction-limited volume of \SI{1}{fL}, preferably a number in the order of one molecule per focal volume on average.
 Because of the diffraction limit ($\Delta{x}={\lambda}/2$), FCS is often limited to nanomolar and picomolar concentrations of the analyte.
 
 Two of the important requirements to measure single molecules with high spatial and temporal resolution are (i) high fluorescence yield and (ii) small excitation and detection volumes.
@@ -123,20 +129,25 @@ In this thesis, almost every fluorescence measurement was done with both microti
 In Chapter 2, both micro and macro times are used to distinguish the shorter lifetime photons from the longer lifetime photons to enhance the visibility of correlation in FCS experiments.
 Chapter 3 utilizes the inter-photon times (t\_macro(i+1) - t\_macro(i)) to extract information that can be misrepresented by the binning methods.
 In chapter 4, the potential of TCSPC is tested to explore dynamical heterogeneity in an electron-transfer protein. 
-%
+
+
 \section{Optical nano-antennas for single molecules}
 Single-molecule fluorescence spectroscopy is usually limited to fluorophores with high quantum yield (\SI{>10}{\percent}) and to low concentrations of molecules (\SI{}{\pM-nM}).
 A large fraction of absorbing molecules including biomolecules and metal complexes show weak fluorescence with very low quantum yield (\SI{<1}{\percent}).
 Background auto-fluorescence in physiological conditions often reduces the signal-to-noise ratio.
 In addition, a majority of physiological reactions involving proteins and enzymes require milli- to micro-molar concentrations of substrates and cofactors.\cite{craighead2006future,punj2013gold,fabrizio2016roadmap,punj2014thesis}
 Thus, systems at physiological conditions with micromolar concentrations cannot be studied conveniently by conventional single-molecule fluorescence microscopy.
-Nano-plasmonics offer a promising solution to these problems, by lifting the concentration limit by light confinement in the optical near field, and by enhancing the emission rate of dyes with poor fluorescence quantum yields.
+Nano-plasmonics offer a promising solution to these problems by lifting the concentration limit by light confinement in the optical near field, and by enhancing the emission rate of dyes with poor fluorescence quantum yields.
+
 
 Optical nano-antennas are similar to radio antennas at the macro scale.
 Antennas are used to control and manipulate electromagnetic (EM) waves on the sub-wavelength scale.
 Currents from a transmitter can be coupled to an antenna and radiated as EM wave to the far-field while on the other end EM waves in the far-field can be coupled to the antenna and sent to the receiver (Figure \ref{fig:nano_antenna}A,B).
 Marconi used antennas with sizes of about ten meters to control waves with kilometer wavelength. 
-Similarly, nanoscale antennas can be used to control optical waves with sub-micrometer wavelengths. Nanoantennas present resonant modes called surface plasmon resonances (SPR's), involving collective motion of the metal's free electrons. Excitation of these surface plasmon resonances provide strong near-field enhancements, confining electromagnetic waves to local hot spots. \cite{bath8624,schuller2010plasmonics,ozbay2006plasmonics,maier2005plasmonics,hess2012active} In addition to the SPR effect, the local electric field is also enhanced by the lightning rod effect, which is a result of the high charge density at the edges or sharply curved tips of the antennas.
+Similarly, nanoscale antennas can be used to control optical waves with sub-micrometer wavelengths.
+Nano-antennas present resonant modes called surface plasmon resonances (SPR's), involving collective motion of the metal's free electrons.
+Excitation of these surface plasmon resonances provide strong near-field enhancements, confining electromagnetic waves to local hot spots. \cite{bath8624,schuller2010plasmonics,ozbay2006plasmonics,maier2005plasmonics,hess2012active}
+In addition to the SPR effect, the local electric field is also enhanced by the lightning rod effect, which is a result of the high charge density at the edges or sharply curved tips of the antennas.
 Compared to the diffraction limit of light, of order $\lambda/2$, plasmonics can confine light down to much smaller spots, even less than nanometers in geometries with nanoparticles on a mirror\cite{benz2016singlemolecule}.
 \begin{figure}
 	\centering
@@ -160,7 +171,8 @@ The quality of an antenna is judged by the large field enhancement factor and sm
 Bow tie antennas and antennas-in-box provide high field enhancements and small near-field volumes but require tedious and expensive lithographic expertise.\cite{novotny2011antennas,regmi2017thesis}
 
 A gold nano-sphere is the most straightforward example of a nano-antenna, but it gives low field enhancement and large near-field volume.\cite{punj2013gold}
-Gold nanorods are somewhat better antennas because of their larger field enhancement and somewhat larger field confinement compared to nanospheres. Morover, they present a stronger and narrower spectral response than spheres. For the research described in this thesis, gold nanorods are our favorite nano-antennas because:
+Gold nanorods are somewhat better antennas because of their larger field enhancement and have a somewhat larger field confinement compared to nanospheres.
+Moreover, they present a stronger and narrower spectral response than spheres. For the research described in this thesis, gold nanorods are our favorite nano-antennas because:
 \begin{itemize}
 	\item Their field enhancement is comparable to that of the best antennas available.
 	\item The plasmon resonance can be tuned from green to far-infrared simply by changing the aspect ratio of the rod.\cite{link1999simulation}
@@ -168,9 +180,9 @@ Gold nanorods are somewhat better antennas because of their larger field enhance
 	The narrow surface plasmon resonance is helpful for selective enhancement of emitters.\cite{yuan2013thousandfold,khatua2014resonant}
 	\item Gold nanorods can be cheaply mass-produced by colloidal synthesis with high crystalline quality and smooth surfaces.\cite{nikoobakht2003preparation,perezjuste2005gold}
 	\item Accessibility. As nanorods are small and colloidal in nature, they can be easily inserted into living cells.\cite{el2005surface,chithrani2007elucidating,pan2007size,lvy2010gold,moser2016cellular}
-	In fact, because of their photoluminescence, they are already being used in living cells or tissues for imaging.
+	In fact, because of their photoluminescence, they are being used in living cells or tissues for imaging.
 	\item Selective reactivity. Gold is inert and harmless for living organisms unlike other metals like silver.
-	It has high affinity towards thiols opening the possibility of chemical functionalization.
+	It has high affinity towards thiols, opening the possibility of chemical functionalization.
 \end{itemize}
 %
 \section{Proteins at work are proteins in motion}
@@ -179,7 +191,7 @@ Proteins and enzymes are the machines inside living cells that perform vital fun
 Proteins and enzymes are often pictured by their static structures obtained by crystallography or the average structure of a large ensemble of conformations obtained from NMR spectroscopy.
 The functions of a protein are governed by its dynamical motions.
 A multidimensional energy landscape and different kinetic barriers govern the complex coordinated motion of proteins.
-For understanding how protein function is related to structure and dynamics, we need to follow their physical properties in the fourth dimension, time.
+To understand how protein function is related to structure and dynamics, we need to follow their physical properties in the fourth dimension, time.
 Enzymes perform chemical reactions by binding with their substrate and minimizing the energy barrier, which needs to be overcome for product formation.
 Spectroscopic studies done in the 1980's and recent nuclear magnetic resonance (NMR) investigations show the amplitude and duration of structural fluctuations involved in the function of enzyme catalysis and protein function.
 Movements are observed on time scales ranging from picoseconds corresponding to atomic movements to milliseconds involving movement of bigger domains.\cite{henzler-wildman2007dynamic,frauenfelder1991the}
@@ -209,11 +221,12 @@ In this thesis, we will investigate the rate of complex formation between an ele
 We will attribute variation in the rates, i.e., the dynamical heterogeneity, to conformational changes.
 
 \section{Azurin: an electron-transfer protein}
-Electron transfer via oxidation and reduction controls vital cellular processes like respiration, redox homeostasis, photosynthesis, to name a few.
-Proteins with a metal co-factor play a crucial role in carrying out such electron transfer.
+Electron transfer via oxidation and reduction controls vital cellular processes like respiration, redox homeostasis, and photosynthesis, to name a few.
+Proteins with a metal co-factor play a crucial role in carrying out such electron transfers.
 Among the metalloproteins, copper and iron containing proteins are most common.
 They carry out activities like oxygen transport (hemocyanin), respiration (cytochrom-c oxidase) and metal homeostasis (ceruloplasmin).
 Because of their electron-transport properties, metalloproteins are promising candidate for biosensors and biomolecular electronic devices.
+
 
 Azurin is a copper-containing protein involved in electron transfer in cells.\cite{dennison2005investigating,kolczak2006handbook}
 The copper ion is buried in the so-called northern part of azurin (MW=\SI{14}{\kilo\dalton}).
@@ -235,11 +248,12 @@ Azurin is well characterized and is a reasonably stable protein at room temperat
 	\label{fig:azurin_structure}
 \end{figure}
 
+
 \section{FluRedox principle (FRET-redox)}
 The absorption band at \SIrange{595}{630}{\nm} of azurin has been used to study electron-transfer kinetics in ensembles.
 To study electron transfer in single azurin molecules, a more sensitive background-free fluorescence-technique in the red-infrared range can be used.
 Azurin does not have intrinsic fluorescence in the red spectral range.
-When the external fluorescent marker ATTO655 is attached, the emission spectrum matches (see Figure~\ref{fig:flurox_azurin}) with absorption of Cu(II) azurin, the dye fluorescence will be quenched when the protein is in the oxidized state, whereas the fluorescence in Cu(I) form will be bright due to the absence of quenching.
+When the external fluorescent marker ATTO655 is attached, the emission spectrum matches (see Figure~\ref{fig:flurox_azurin}) with the absorption of Cu(II) azurin, the dye fluorescence will be quenched when the protein is in the oxidized state, whereas the fluorescence in Cu(I) form will be bright due to the absence of quenching.
 In other words, the oxidation state of the azurin can be read out simply by looking at the fluorescence of labeled azurin.
 The principle to detect the oxidation state in metalloenzymes by looking at the fluorescence of an external marker is called FluRedox. It was pioneered by Aartsma, Canters and co-workers.\cite{kuznetsova2008the,goldsmith2011redox,tabares2011fluorescence}
 \begin{figure}
@@ -258,7 +272,7 @@ The $F\ddot{o}rster$ radius can be given as:
 \begin{equation}
 	R_0 = 0.211[\kappa^2n^{-4}Q_DJ(\lambda)]^{1/6}	
 \end{equation}
-where $\kappa^2$ is an orientation factor, n the refractive index of the solvent, $Q_D$ the quantum yield of the label and $J(\lambda)$ the spectral overlap between the absorption of azurin and the emission of the dye.
+where $\kappa^2$ is an orientation factor, $n$ the refractive index of the solvent, $Q_D$ the quantum yield of the label and $J(\lambda)$ the spectral overlap between the absorption of azurin and the emission of the dye.
 The overlap between the emission of the dye ATTO655 and the absorption of azurin can be visually seen in Figure~\ref{fig:flurox_azurin}A.
 When ATTO655 is attached at the Lys122 of azurin, the quenching efficiency is around \SI{90}{\percent}.
 Such high quenching efficiency allows us to study electron transfer and its heterogeneity at the single-molecule level(Chapter~5).
@@ -268,9 +282,9 @@ The common theme of this work is single-molecule fluorescence. In the first part
 
 \begin{itemize}
 	\item \textbf{Chapter 2.} Many physiological reactions like enzyme-substrate reactions occur in millimolar to micromolar concentrations.
-	Single-molecule studies do not provide direct access to such a high concentrations because there are still thousands of molecules in the diffraction-limited detection volume of a few femtoliters.
+	Single-molecule studies do not provide direct access to such high concentrations because there are still thousands of molecules in the diffraction-limited detection volume of a few femtoliters.
 	In this chapter, we use gold nanorods to perform fluorescence correlation spectroscopy at physiologically relevant concentrations.
-	The gold nanorod helps to confine light to smaller volumes and enhance the dye fluorescence.
+	The gold nanorod helps to confine light to smaller volumes and enhances the dye fluorescence.
 	The fluorescent probe molecules (ATTO647N) were allowed to freely diffuse in a supported lipid bilayer.
 	The zwitterionic head groups on the lipid prevent any non-specific interaction between the substrate and the gold nanorod.
 	Similar diffusion coefficients were observed in the far-field and near-field suggesting the absence of influence of the gold nanorod on the dye diffusion.
@@ -290,7 +304,8 @@ The common theme of this work is single-molecule fluorescence. In the first part
 	The enhancement factor extracted from the time traces in the presence of a gold nanorod were different for different binning times.
 	We investigated the interphoton times to extract an average enhancement factor and the number of molecules in the near field.
 	We performed numerical simulations and employed theoretical models to extract the intensity distribution for slowly diffusing molecules in a two-dimensional bilayer.
-	The non-exponential character of the interphoton-time distribution was found to strongly depend on the average number of molecules in the near field. Work is in progress to investigate enhanced fluorescence histograms in the presence of molecular diffusion.
+	The non-exponential character of the interphoton-time distribution was found to strongly depend on the average number of molecules in the near field.
+	Enhancement factors were estimated for diffusing dyes around a gold nanorod and compared with the enhancement factors obtained from binning.
 
 	\item \textbf{Chapter 5.} In the final chapter, we investigated electron transfer in redox active single azurins.
 	The oxidation state of the Cu-azurin was read out by observing the brightness of the fluorophore.

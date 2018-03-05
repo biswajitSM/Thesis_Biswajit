@@ -17,9 +17,9 @@
    id="svg2"
    inkscape:version="0.91 r13725"
    sodipodi:docname="dynamic_trace_steps.svg"
-   inkscape:export-filename="/home/biswajit/Research/Reports_ppt/reports/AzurinSM-MS4/Azurin_SM_repo/temp/Point_15_75mV_S106.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-filename="/home/biswajit/Research/Reports_ppt/Thesis/Thesis_Biswajit/chapters/c4_azurin_sm/si/dynamic_trace_steps.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata2788">
     <rdf:RDF>
@@ -46,7 +46,7 @@
      id="namedview2786"
      showgrid="true"
      inkscape:zoom="1.5090588"
-     inkscape:cx="320.22297"
+     inkscape:cx="209.8893"
      inkscape:cy="301.1811"
      inkscape:window-x="0"
      inkscape:window-y="24"
@@ -12946,6 +12946,7 @@
              id="text673"><tspan
    style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan6589">t</tspan>
+
 b<tspan
    style="font-size:12.00000095px;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan6591">_av/s</tspan>
@@ -13159,6 +13160,7 @@ b<tspan
              id="text1197"><tspan
    style="font-size:12.00000114px"
    id="tspan6587">t</tspan>
+
 d<tspan
    style="font-size:12.00000114px"
    id="tspan6593">_av/s</tspan>

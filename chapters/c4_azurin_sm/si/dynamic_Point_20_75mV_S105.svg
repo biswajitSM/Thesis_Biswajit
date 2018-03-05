@@ -17,9 +17,9 @@
    id="svg2"
    inkscape:version="0.91 r13725"
    sodipodi:docname="dynamic_Point_20_75mV_S105.svg"
-   inkscape:export-filename="/home/biswajit/Research/Reports_ppt/reports/AzurinSM-MS4/Azurin_SM_repo/temp/Point_20_75mV_S105.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-filename="/home/biswajit/Research/Reports_ppt/Thesis/Thesis_Biswajit/chapters/c4_azurin_sm/si/dynamic_Point_20_75mV_S105.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata2236">
     <rdf:RDF>
@@ -46,7 +46,7 @@
      id="namedview2234"
      showgrid="true"
      inkscape:zoom="1.5090588"
-     inkscape:cx="320.22297"
+     inkscape:cx="99.555627"
      inkscape:cy="301.1811"
      inkscape:window-x="0"
      inkscape:window-y="24"
@@ -428,6 +428,8 @@
              id="text676"><tspan
    style="font-size:12.00000114px"
    id="tspan4865">t</tspan>
+
+
 b<tspan
    style="font-size:12.00000114px"
    id="tspan4867">_av/s</tspan>
@@ -700,6 +702,8 @@ b<tspan
              id="text1212"><tspan
    style="font-size:12.00000114px"
    id="tspan4861">t</tspan>
+
+
 d<tspan
    style="font-size:12.00000114px"
    id="tspan4863">_av/s</tspan>

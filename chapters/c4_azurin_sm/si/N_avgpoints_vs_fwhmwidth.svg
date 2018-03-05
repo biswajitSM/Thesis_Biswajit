@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,15 +39,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1918"
-     inkscape:window-height="1045"
+     inkscape:window-height="1027"
      id="namedview774"
      showgrid="false"
      units="cm"
      inkscape:zoom="2.4835556"
-     inkscape:cx="292.32283"
+     inkscape:cx="293.12813"
      inkscape:cy="65.551181"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <defs
@@ -6786,7 +6786,7 @@
        id="tspan5825"
        style="font-size:9.99999905px;fill:#0000ff;stroke-linecap:butt;stroke-linejoin:round"
        x="372.19113"
-       y="13.862854">on correlation</tspan></text>
+       y="13.862854">t_b correlation</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:31.99999619px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6798,7 +6798,7 @@
        id="tspan5825-7"
        style="font-size:9.99999905px;fill:#808000;stroke-linecap:butt;stroke-linejoin:round"
        x="374.55057"
-       y="79.540176">off correlation</tspan></text>
+       y="79.540176">t_d correlation</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:31.99999619px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
